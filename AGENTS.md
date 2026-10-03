@@ -25,6 +25,7 @@ The skill itself is in `skills/i-have-dyslexia/SKILL.md`.
 | Readability check | `tools/check-readability.py` |
 | Pictures, website data, generated tables | `tools/build-visuals.py` |
 | Demo GIF, from `assets/demo.svg` | `tools/build-demo-gif.py` (macOS) |
+| Map as PNG, for sharing | `tools/export-map-png.sh` (macOS), after any strategy change |
 | Website | `site/` (GitHub Pages) |
 | Sources | `READING-LIST.md` |
 
@@ -33,7 +34,7 @@ The skill itself is in `skills/i-have-dyslexia/SKILL.md`.
 Read `CONTRIBUTING.md` first. Then:
 
 1. Run `python3 tools/check-readability.py`. The skill must follow its own rules.
-2. Run `python3 tools/build-visuals.py` after any change in `strategies/`.
+2. Run `python3 tools/build-visuals.py` after any change in `strategies/`, then `sh tools/export-map-png.sh`.
 3. Run `claude plugin validate .` and `claude plugin validate skills`.
 4. Add or update an eval case in `evals/` for the behaviour you changed.
 5. Run `claude plugin eval . --allow-tools Read --judge-model sonnet --case '<your case>'` and report the with and without scores.

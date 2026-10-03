@@ -2,6 +2,10 @@
 
 Each rule added from a community report links to that report and credits its author.
 
+## Unreleased
+
+- The strategy map as a PNG, linked from both READMEs, for sharing where SVG does not work.
+
 ## 0.4.0 (2026-10-04)
 
 - README in Portuguese from Portugal: `README.pt-PT.md`.

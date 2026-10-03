@@ -67,6 +67,8 @@ O Claude usa-as quando **qualquer pessoa** fica bloqueada.
 
 O Claude escolhe **uma** estratégia, diz qual é, e faz o primeiro passo **contigo**.
 
+📥 [Descarrega o mapa em PNG](assets/strategy-map.png), para partilhar no LinkedIn, em apresentações ou numa conversa.
+
 Algumas das estratégias:
 
 | Estratégia | Numa linha |

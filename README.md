@@ -74,6 +74,8 @@ Claude uses them when **anyone** is stuck.
 
 Claude picks **one** strategy, tells you which, and does it **with** you.
 
+📥 [Download the map as a PNG](assets/strategy-map.png), to share on LinkedIn, in slides or in a chat.
+
 <details>
 <summary><b>See every strategy as a card</b></summary>
 <br/>
