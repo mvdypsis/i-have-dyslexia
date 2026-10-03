@@ -7,13 +7,14 @@ claude plugin marketplace add mvdypsis/i-have-dyslexia
 claude plugin install i-have-dyslexia@i-have-dyslexia
 ```
 
-Restart Claude Code. Then type `/i-have-dyslexia`, or just say "I'm dyslexic".
-
-To keep it on in every session, add this line to your `CLAUDE.md`:
+Restart Claude Code. Then type:
 
 ```
-I'm dyslexic. Use the i-have-dyslexia skill.
+/i-have-dyslexia setup
 ```
+
+Claude asks you 5 questions and saves a short profile. From then on, the skill switches on by itself at the start of every session, with your preferences.
+To turn that off, delete `~/.claude/i-have-dyslexia/profile.md`.
 
 ## Claude app and claude.ai
 

@@ -2,8 +2,11 @@
 
 Each rule added from a community report links to that report and credits its author.
 
-## Unreleased
+## 0.3.0 (2026-10-04)
 
+- `/i-have-dyslexia setup`: 5 questions, one at a time, and a short profile in your own words. Setup test: 1.00 with the skill, 0.00 without.
+- Tests now allow file reading and use Sonnet as the judge. Without file reading, Claude could never open the side files, which is why rules that must always apply now live in `SKILL.md`.
+- Always on: with a profile, a hook loads the rules and the profile at the start of every Claude Code session. Without one, nothing changes.
 - Two new strategies shared by Miguel Vicente: Explain it with a movie, and Picture what you read. 25 in total.
 - Planning: a plan now ends with one "▶ Start here" step. The rule moved into `SKILL.md`, where Claude always reads it. Plan my week went from 0.00 to between 0.50 and 1.00.
 - Learning: a learning problem gets one named strategy and only its first step. 0.50 to 1.00.

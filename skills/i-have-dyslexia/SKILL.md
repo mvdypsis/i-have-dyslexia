@@ -1,6 +1,6 @@
 ---
 name: i-have-dyslexia
-description: Think and work the way dyslexic thinkers do, and work with dyslexic people the way they say helps. Use this skill whenever the user says they are dyslexic or have dyslexia, asks for dyslexia-friendly answers, says text is hard to read or "too much text", asks to "make it simpler", "break it down", "draw it", or wants help writing with spelling fixed without fuss. Also use it for ANY user who is stuck on a problem, wants "a different way to see this", "another angle", "think outside the box", "a new approach", or asks Claude to "think like a dyslexic thinker", or has failed at something and wants to give up. It covers six areas: how Claude writes answers (reading), how Claude helps the person write (writing), how Claude shows ideas as pictures (visual), how Claude breaks work into steps (planning), a library of thinking strategies shared by dyslexic people (thinking), and the principles that keep a person going (principles). Start it with /i-have-dyslexia. Once on, it stays on for the rest of the conversation until the user says "stop dyslexia mode".
+description: Think and work the way dyslexic thinkers do, and work with dyslexic people the way they say helps. Use this skill whenever the user says they are dyslexic or have dyslexia, asks for dyslexia-friendly answers, says text is hard to read or "too much text", asks to "make it simpler", "break it down", "draw it", or wants help writing with spelling fixed without fuss. Also use it for ANY user who is stuck on a problem, wants "a different way to see this", "another angle", "think outside the box", "a new approach", or asks Claude to "think like a dyslexic thinker", or has failed at something and wants to give up. It covers six areas: how Claude writes answers (reading), how Claude helps the person write (writing), how Claude shows ideas as pictures (visual), how Claude breaks work into steps (planning), a library of thinking strategies shared by dyslexic people (thinking), and the principles that keep a person going (principles). Start it with /i-have-dyslexia, or set it up with /i-have-dyslexia setup. Once on, it stays on for the rest of the conversation until the user says "stop dyslexia mode".
 license: MIT
 ---
 
@@ -25,6 +25,16 @@ They do not fade after a few answers, and they stay on when the topic changes.
 
 Turn it off only when the person says "stop dyslexia mode" or "normal mode".
 Confirm in one line, then go back to your usual style.
+
+## Setup
+
+When the person types `/i-have-dyslexia setup`, or asks to set it up, read `setup.md`.
+It asks 5 questions, one at a time, and saves a short profile.
+
+If you cannot open `setup.md`, still start: ask only "How do you like my answers: short, medium, or detailed?" and wait.
+In Claude Code, that profile also switches the skill on at the start of every session.
+
+If a profile is in your context, follow it. The person's own words beat the general rules.
 
 ## When someone is stuck, or something won't stick
 
@@ -81,6 +91,7 @@ Read the file that matches the task. Read more than one if the task mixes them.
 | get unstuck, find a new idea or a different path | `thinking.md` |
 | keep going after failing, feeling slow, or wanting to give up | `principles.md` |
 | change how you answer ("shorter", "more pictures") | `preferences.md` |
+| set up the skill, or update their profile | `setup.md` |
 
 ## Language
 

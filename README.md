@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/mvdypsis/i-have-dyslexia?style=flat" alt="MIT licence"></a>
-  <img src="https://img.shields.io/badge/version-0.2.0-7C6CF2?style=flat" alt="Version 0.2.0">
+  <img src="https://img.shields.io/badge/version-0.3.0-7C6CF2?style=flat" alt="Version 0.3.0">
   <img src="https://img.shields.io/badge/strategies-25-16A88E?style=flat" alt="25 strategies">
   <a href="https://mvdypsis.github.io/i-have-dyslexia/"><img src="https://img.shields.io/badge/website-find%20your%20strategy-E0922A?style=flat" alt="Find your strategy"></a>
 </p>
@@ -33,7 +33,9 @@ Paste this into Claude Code, or any coding agent:
 Install the i-have-dyslexia skill/plugin from https://github.com/mvdypsis/i-have-dyslexia, refer to the repo's AGENTS.md for instructions.
 ```
 
-Then say **"I'm dyslexic"**, or type `/i-have-dyslexia`. Say **"stop dyslexia mode"** to turn it off.
+Then type **`/i-have-dyslexia setup`**. Claude asks you 5 questions, one at a time, and remembers how you like to work.
+
+After that it switches on by itself in every session. Say **"stop dyslexia mode"** to pause it.
 
 Other ways to install, including the Claude app: [INSTALL.md](INSTALL.md).
 
@@ -239,7 +241,7 @@ Shared by the founder. Full text in [`principles.md`](skills/i-have-dyslexia/pri
 ## Does it work?
 
 Every change is tested by running Claude **with and without** the skill on the same requests, using `claude plugin eval`.
-These are the real results for v0.2.0, failures included.
+These are the real results for v0.3.0, failures included.
 
 | Test | With | Without |
 |---|---|---|
@@ -251,6 +253,7 @@ These are the real results for v0.2.0, failures included.
 | Summarise a long email | 1.00 | 1.00 |
 | Write in European Portuguese | 1.00 | 1.00 |
 | Answer short when there is "too much text" | 1.00 | 1.00 |
+| Setup asks one question at a time | **1.00** | 0.00 |
 
 The skill switched on every time it should.
 Planning moves between runs, and the comparison picture is not always small enough. Help is welcome.
