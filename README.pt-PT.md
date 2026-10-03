@@ -58,6 +58,96 @@ O Claude usa-as quando **qualquer pessoa** fica bloqueada.
 
 ---
 
+## Um dia normal de trabalho
+
+<table>
+<tr>
+<th width="50%">Sem a skill</th>
+<th width="50%">Com a skill</th>
+</tr>
+<tr><td colspan="2"><b>🧭 Product manager, 9h50, stand-up daqui a 10 minutos</b></td></tr>
+<tr>
+<td>
+
+> **"Resume esta conversa de 60 mensagens no Slack sobre o erro no checkout"**
+>
+> A conversa começa com um relato do suporte, na segunda-feira, sobre falhas intermitentes no checkout, depois do qual vários engenheiros discutiram causas possíveis, incluindo uma alteração recente à integração com o fornecedor de pagamentos, enquanto a equipa de design levantou uma questão separada sobre o texto da mensagem de erro...
+
+</td>
+<td>
+
+> **O checkout falha em cerca de 2% dos pagamentos com cartão desde segunda. A correção sai na quinta.**
+>
+> - Causa: o novo fornecedor de pagamentos desiste ao fim de 10 segundos.
+> - A Ana trata da correção. O Rui muda a mensagem de erro.
+>
+> **Para ti:** pede ao suporte que ofereça PayPal até quinta.
+
+</td>
+</tr>
+<tr><td colspan="2"><b>🛠️ Engenheiro, 16h00, duas horas no mesmo erro</b></td></tr>
+<tr>
+<td>
+
+> **"Os testes passam no meu computador mas falham no CI e não sei porquê"**
+>
+> Aqui estão 10 causas comuns: 1. Variáveis de ambiente. 2. Versões diferentes do Node. 3. Fusos horários. 4. Ordem dos testes. 5. Cache. 6. Chamadas à rede. 7. Caminhos de ficheiros...
+
+</td>
+<td>
+
+> Vamos tentar **Jump to the answer, then check**.
+>
+> Qual é o teu palpite: o ambiente, o tempo, ou a ordem em que os testes correm?
+>
+> Escolhe um, e eu dou-te o único comando que o prova.
+
+</td>
+</tr>
+<tr><td colspan="2"><b>🎨 Designer, 11h00, um estudo de 30 páginas para ler</b></td></tr>
+<tr>
+<td>
+
+> **"O que diz este estudo sobre o onboarding?"**
+>
+> O relatório apresenta as conclusões de 14 entrevistas feitas ao longo de três semanas. Os participantes descreveram experiências variadas, e surgiram vários temas nas sessões, incluindo incerteza, pressa e confiança...
+
+</td>
+<td>
+
+> Vamos **Picture what you read**. Três imagens guardam o estudo:
+>
+> 1. 🧭 **Uma pessoa perdida num centro comercial:** os utilizadores não sabem em que passo estão.
+> 2. ⏰ **Um telemóvel numa paragem de autocarro:** a maioria regista-se em menos de 2 minutos, em movimento.
+> 3. 🔒 **Uma porta trancada:** pedir o cartão no passo 2 faz sair 6 em 14.
+>
+> Para qual queres desenhar primeiro?
+
+</td>
+</tr>
+<tr><td colspan="2"><b>🚀 Fundador, 22h00, o update mensal aos investidores</b></td></tr>
+<tr>
+<td>
+
+> **"corrige isto: fexamos 3 clientes novos este mes e a recieta cresceu 12%, o burn baixou, estamos a contartar um cto"**
+>
+> Aqui está a versão corrigida. Nota: "fexamos" escreve-se "fechámos", "recieta" escreve-se "receita", e "contartar" escreve-se "contratar"...
+
+</td>
+<td>
+
+> **Update: setembro**
+>
+> Fechámos 3 clientes novos, e a receita cresceu 12%. O burn baixou. Estamos a contratar um CTO.
+>
+> Queres que junte os números numa tabela pequena?
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 25 maneiras de pensar
 
 <picture>
