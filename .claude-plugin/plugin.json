@@ -1,7 +1,7 @@
 {
   "name": "i-have-dyslexia",
   "description": "Teaches Claude to think like the best dyslexic thinkers, and to work with dyslexic people the way they say helps: clear answers, writing help without judgement, ideas as pictures, small steps, and a growing library of thinking strategies shared by the dyslexic community.",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": {
     "name": "Miguel Vicente",
     "url": "https://github.com/mvdypsis"

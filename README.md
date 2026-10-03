@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/mvdypsis/i-have-dyslexia?style=flat" alt="MIT licence"></a>
-  <img src="https://img.shields.io/badge/version-0.4.0-7C6CF2?style=flat" alt="Version 0.4.0">
+  <img src="https://img.shields.io/badge/version-0.4.1-7C6CF2?style=flat" alt="Version 0.4.1">
   <img src="https://img.shields.io/badge/strategies-25-16A88E?style=flat" alt="25 strategies">
   <a href="https://mvdypsis.github.io/i-have-dyslexia/"><img src="https://img.shields.io/badge/website-find%20your%20strategy-E0922A?style=flat" alt="Find your strategy"></a>
 </p>

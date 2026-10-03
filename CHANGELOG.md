@@ -2,7 +2,7 @@
 
 Each rule added from a community report links to that report and credits its author.
 
-## Unreleased
+## 0.4.1 (2026-10-04)
 
 - The strategy map as a PNG, linked from both READMEs, for sharing where SVG does not work.
 
