@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/mvdypsis/i-have-dyslexia?style=flat" alt="MIT licence"></a>
-  <img src="https://img.shields.io/badge/version-0.3.0-7C6CF2?style=flat" alt="Version 0.3.0">
+  <img src="https://img.shields.io/badge/version-0.4.0-7C6CF2?style=flat" alt="Version 0.4.0">
   <img src="https://img.shields.io/badge/strategies-25-16A88E?style=flat" alt="25 strategies">
   <a href="https://mvdypsis.github.io/i-have-dyslexia/"><img src="https://img.shields.io/badge/website-find%20your%20strategy-E0922A?style=flat" alt="Find your strategy"></a>
 </p>
@@ -245,7 +245,7 @@ Shared by the founder. Full text in [`principles.md`](skills/i-have-dyslexia/pri
 ## Does it work?
 
 Every change is tested by running Claude **with and without** the skill on the same requests, using `claude plugin eval`.
-These are the real results for v0.3.0, failures included.
+These are the real results for v0.4.0, failures included.
 
 | Test | With | Without |
 |---|---|---|

@@ -2,7 +2,7 @@
 
 Each rule added from a community report links to that report and credits its author.
 
-## Unreleased
+## 0.4.0 (2026-10-04)
 
 - README in Portuguese from Portugal: `README.pt-PT.md`.
 - Codex, Gemini CLI and Cursor install routes, following the i-have-adhd formats. Not tested here yet.
