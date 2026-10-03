@@ -21,18 +21,23 @@ The skill itself is in `skills/i-have-dyslexia/SKILL.md`.
 | Examples | `examples/` |
 | Eval cases | `evals/` |
 | Readability check | `tools/check-readability.py` |
+| Pictures, website data, generated tables | `tools/build-visuals.py` |
+| Website | `site/` (GitHub Pages) |
+| Sources | `READING-LIST.md` |
 
 ## Changing the skill
 
 Read `CONTRIBUTING.md` first. Then:
 
 1. Run `python3 tools/check-readability.py`. The skill must follow its own rules.
-2. Run `claude plugin validate .` and `claude plugin validate skills`.
-3. Add or update an eval case in `evals/` for the behaviour you changed.
-4. Run `claude plugin eval . --case '<your case>'` and report the with and without scores.
+2. Run `python3 tools/build-visuals.py` after any change in `strategies/`.
+3. Run `claude plugin validate .` and `claude plugin validate skills`.
+4. Add or update an eval case in `evals/` for the behaviour you changed.
+5. Run `claude plugin eval . --case '<your case>'` and report the with and without scores.
 
 ## Rules for agents
 
 - Never put a strategy in the library without the person who shared it agreeing to the wording.
-- Never credit a strategy to a famous person without a source.
+- Never credit a strategy to a famous person without a source link you opened yourself.
+- Never credit a myth. Einstein, Edison and da Vinci are not confirmed dyslexic.
 - Do not comment on issues or pull requests you did not open.

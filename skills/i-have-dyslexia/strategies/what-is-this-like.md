@@ -1,3 +1,9 @@
+---
+emoji: "🔗"
+summary: "Borrow the answer from another area of life."
+moments: "idea, stuck"
+---
+
 # What is this like?
 
 **Dyslexic Thinking skill:** Connecting, Reasoning

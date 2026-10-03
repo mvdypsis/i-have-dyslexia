@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 361" width="640" height="361" role="img" aria-label="Train it another way: Practise the weak skill through something you enjoy. Steps: Name the skill underneath the task: memory, coordination, focus, order. Find an activity that trains the same skill in a different way, often one the person enjoys. Suggest it as practice, alongside the main task." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="361" rx="18" fill="#0D1117"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#E2683C" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#E6EDF3" text-anchor="start">🎸</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#E6EDF3" text-anchor="start">Train it another way</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#E2683C" text-anchor="start">Exploring · Imagining</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">Practise the weak skill through something you enjoy.</text>
+<text x="40.0" y="160.0" font-size="12" font-weight="700" fill="#9DA7B3" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="179" r="11" fill="#E2683C"/>
+<text x="51.0" y="184.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="184.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Name the skill underneath the task: memory, coordination,</text>
+<text x="72.0" y="205.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">focus, order.</text>
+<circle cx="51" cy="229" r="11" fill="#E2683C"/>
+<text x="51.0" y="234.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="234.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Find an activity that trains the same skill in a different</text>
+<text x="72.0" y="255.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">way, often one the person enjoys.</text>
+<circle cx="51" cy="279" r="11" fill="#E2683C"/>
+<text x="51.0" y="284.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="284.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Suggest it as practice, alongside the main task.</text>
+<line x1="40" y1="309" x2="600" y2="309" stroke="#30363D"/>
+<text x="40.0" y="333.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">Shared by Miguel Vicente</text>
+</svg>

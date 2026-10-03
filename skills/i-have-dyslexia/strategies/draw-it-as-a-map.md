@@ -1,3 +1,9 @@
+---
+emoji: "🗺️"
+summary: "Put the problem in the middle, and find the knot."
+moments: "stuck, plan"
+---
+
 # Draw it as a map
 
 **Dyslexic Thinking skill:** Visualising, Connecting

@@ -1,3 +1,9 @@
+---
+emoji: "🗣️"
+summary: "Say it before you write it."
+moments: "explain, stuck"
+---
+
 # Talk it out
 
 **Dyslexic Thinking skill:** Communicating

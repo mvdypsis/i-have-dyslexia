@@ -1,0 +1,671 @@
+{
+  "skills": {
+    "Visualising": "#7C6CF2",
+    "Imagining": "#D9579B",
+    "Communicating": "#E0922A",
+    "Reasoning": "#2F8FE0",
+    "Connecting": "#16A88E",
+    "Exploring": "#E2683C"
+  },
+  "strategies": [
+    {
+      "slug": "big-picture-first",
+      "name": "Big picture first",
+      "emoji": "🔭",
+      "summary": "See the whole before the details.",
+      "skills": [
+        "Visualising",
+        "Reasoning"
+      ],
+      "moments": [
+        "stuck",
+        "learn",
+        "plan"
+      ],
+      "use_when": "details are drowning the person, or they cannot see why the parts matter.",
+      "steps": [
+        "Stop the details. Ask: \"What is this whole thing for, in one sentence?\"",
+        "Draw the whole thing as 3 to 5 big blocks. No details yet.",
+        "Ask which block matters most right now.",
+        "Zoom into that one block only. Leave the others closed."
+      ],
+      "shared_by": "starter strategy, written for v0.1.0. Waiting for community stories.",
+      "inspired_by": "dyslexic leaders described by Fortune as focusing on the big picture",
+      "sources": [
+        {
+          "text": "Fortune, 2002",
+          "url": "https://fortune.com/2002/05/13/the-dyslexic-ceo"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/big-picture-first.md"
+    },
+    {
+      "slug": "build-a-model",
+      "name": "Build a model",
+      "emoji": "🧱",
+      "summary": "Make the idea with your hands, then move the pieces.",
+      "skills": [
+        "Visualising",
+        "Reasoning"
+      ],
+      "moments": [
+        "learn",
+        "stuck",
+        "explain"
+      ],
+      "use_when": "an idea has parts that fit together, and words keep them flat.",
+      "steps": [
+        "Ask what the parts are. Give each one a physical stand-in: a sticky note, a coin, a box on screen.",
+        "Lay them out so their position means something: near, far, above, inside.",
+        "Move one piece and ask what changes.",
+        "When the layout feels right, put it back into words."
+      ],
+      "shared_by": "",
+      "inspired_by": "Material reasoning in The Dyslexic Advantage by Brock and Fernette Eide, and the clay models of the Davis method",
+      "sources": [
+        {
+          "text": "interview",
+          "url": "https://dianerehm.org/shows/2012-02-15/dyslexic-brain"
+        },
+        {
+          "text": "description",
+          "url": "https://www.dyslexia.com/davis-difference/about-davis/inside-the-davis-program/beating-dyslexia-with-clay/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/build-a-model.md"
+    },
+    {
+      "slug": "build-a-team-around-your-gaps",
+      "name": "Build a team around your gaps",
+      "emoji": "🧩",
+      "summary": "Do what you're great at. Hand the rest to someone who's great at it.",
+      "skills": [
+        "Connecting"
+      ],
+      "moments": [
+        "people",
+        "plan"
+      ],
+      "use_when": "the person is doing everything alone, including the parts that drain them.",
+      "steps": [
+        "List the tasks of the project. Mark each one: energises me, or drains me.",
+        "For each draining task, ask who could do it well: a colleague, a friend, a tool, Claude.",
+        "Keep the tasks only you can do. Hand off one draining task this week.",
+        "Agree how you will check the result, so handing off feels safe."
+      ],
+      "shared_by": "",
+      "inspired_by": "Richard Branson on delegating what he found difficult, and Kinko's founder Paul Orfalea",
+      "sources": [
+        {
+          "text": "NZ Herald",
+          "url": "https://www.nzherald.co.nz/lifestyle/richard-branson-talks-dyslexia-and-what-kids-like-him-really-need/7AJUKGXFBIROC3Z73NOWFCUUIY/"
+        },
+        {
+          "text": "Fortune, 2002",
+          "url": "https://fortune.com/2002/05/13/the-dyslexic-ceo"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/build-a-team-around-your-gaps.md"
+    },
+    {
+      "slug": "draw-it-as-a-map",
+      "name": "Draw it as a map",
+      "emoji": "🗺️",
+      "summary": "Put the problem in the middle, and find the knot.",
+      "skills": [
+        "Visualising",
+        "Connecting"
+      ],
+      "moments": [
+        "stuck",
+        "plan"
+      ],
+      "use_when": "the person is stuck and the problem is going round in their head.",
+      "steps": [
+        "Put the problem in the middle, in a few words.",
+        "Ask what connects to it. Draw each answer as a branch.",
+        "Draw lines between branches that affect each other.",
+        "Ask: \"Looking at the map, where is the knot?\" Work on that part first."
+      ],
+      "shared_by": "Miguel Vicente",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/draw-it-as-a-map.md"
+    },
+    {
+      "slug": "find-another-path",
+      "name": "Find another path",
+      "emoji": "🛤️",
+      "summary": "When the usual way is blocked, find three others.",
+      "skills": [
+        "Exploring",
+        "Imagining"
+      ],
+      "moments": [
+        "stuck",
+        "idea"
+      ],
+      "use_when": "the normal way is blocked, too slow, or does not fit the person.",
+      "steps": [
+        "Name the usual way in one line, and what blocks it.",
+        "List three other paths. Make at least one of them unusual.",
+        "For each path, say what it costs in one line.",
+        "Let the person choose. Then plan only the chosen path."
+      ],
+      "shared_by": "Miguel Vicente, and a starter strategy for v0.1.0.",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/find-another-path.md"
+    },
+    {
+      "slug": "go-and-look",
+      "name": "Go and look",
+      "emoji": "👀",
+      "summary": "Skip the report. Go where it happens and watch.",
+      "skills": [
+        "Exploring",
+        "Connecting"
+      ],
+      "moments": [
+        "people",
+        "stuck",
+        "idea"
+      ],
+      "use_when": "the person is trying to understand a problem through documents, and it is not working.",
+      "steps": [
+        "Ask where the problem actually happens: a shop, a screen, a phone call, a factory.",
+        "Plan a short visit or a short call. 30 minutes is enough.",
+        "Write 3 questions to ask, and 3 things to watch.",
+        "Afterwards, Claude turns what they saw into a map."
+      ],
+      "shared_by": "",
+      "inspired_by": "Kinko's founder Paul Orfalea, who learned his business by walking the stores and talking to people",
+      "sources": [
+        {
+          "text": "Edge Foundation",
+          "url": "https://edgefoundation.org/paul-orfalea-turning-learning-challenges-into-business-opportunities/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/go-and-look.md"
+    },
+    {
+      "slug": "jump-to-the-answer-then-check",
+      "name": "Jump to the answer, then check",
+      "emoji": "🦘",
+      "summary": "Trust the leap to the answer, then prove it step by step.",
+      "skills": [
+        "Reasoning"
+      ],
+      "moments": [
+        "stuck",
+        "idea"
+      ],
+      "use_when": "the person already feels the answer, but cannot yet explain the steps.",
+      "steps": [
+        "Ask for the answer first: \"What does your gut say?\"",
+        "Write it down as a claim.",
+        "Work backwards together: what would have to be true for it to be right?",
+        "Check those things. Keep the answer, change it, or drop it."
+      ],
+      "shared_by": "",
+      "inspired_by": "Charles Schwab, who says he gets to the conclusion much faster than others",
+      "sources": [
+        {
+          "text": "Yale",
+          "url": "https://www.dyslexia.yale.edu/story/charles-schwab/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/jump-to-the-answer-then-check.md"
+    },
+    {
+      "slug": "keep-the-message-simple",
+      "name": "Keep the message simple",
+      "emoji": "🎯",
+      "summary": "If it takes a page to explain, it isn't ready.",
+      "skills": [
+        "Communicating"
+      ],
+      "moments": [
+        "explain",
+        "people"
+      ],
+      "use_when": "an idea, a product or a pitch needs to land with real people.",
+      "steps": [
+        "Ask the person to say the idea in one sentence a 12-year-old would get.",
+        "Cut every word that does not change the meaning.",
+        "Test it: \"If someone hears only this, what will they do?\"",
+        "Keep the long version for later. Lead with the short one."
+      ],
+      "shared_by": "",
+      "inspired_by": "Richard Branson, who says dyslexia helped him think big and keep his messages simple",
+      "sources": [
+        {
+          "text": "NZ Herald",
+          "url": "https://www.nzherald.co.nz/lifestyle/richard-branson-talks-dyslexia-and-what-kids-like-him-really-need/7AJUKGXFBIROC3Z73NOWFCUUIY/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/keep-the-message-simple.md"
+    },
+    {
+      "slug": "learn-by-changing-roles",
+      "name": "Learn by changing roles",
+      "emoji": "🎭",
+      "summary": "See the problem from inside someone else's job.",
+      "skills": [
+        "Connecting",
+        "Exploring"
+      ],
+      "moments": [
+        "idea",
+        "people"
+      ],
+      "use_when": "the person wants to grow, or feels stuck in one way of seeing their work.",
+      "steps": [
+        "Ask who else touches the problem: the customer, the seller, the builder, the boss.",
+        "Pick one role. Look at the problem from inside that role.",
+        "Ask: \"What does this person see that you don't?\"",
+        "For a career, suggest trying the role for real: a project, a workshop, a talk."
+      ],
+      "shared_by": "Miguel Vicente",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/learn-by-changing-roles.md"
+    },
+    {
+      "slug": "learn-by-doing",
+      "name": "Learn by doing",
+      "emoji": "🛠️",
+      "summary": "Try it first. Read about it only when you're stuck.",
+      "skills": [
+        "Exploring"
+      ],
+      "moments": [
+        "learn",
+        "stuck"
+      ],
+      "use_when": "the person must learn a tool, a skill or a process, and the manual is a wall.",
+      "steps": [
+        "Pick the smallest real task that uses the skill.",
+        "Do it together, one step at a time. Explain only what this step needs.",
+        "When something breaks, look it up then, and only that.",
+        "Do a second, slightly bigger task. Repeat."
+      ],
+      "shared_by": "",
+      "inspired_by": "Jamie Oliver, who is dyslexic and says \"Get up and do something\"",
+      "sources": [
+        {
+          "text": "Child Mind Institute",
+          "url": "https://childmind.org/blog/dyslexic-jamie-oliver-struggled-with-stigma/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/learn-by-doing.md"
+    },
+    {
+      "slug": "learn-from-cases",
+      "name": "Learn from cases",
+      "emoji": "🗂️",
+      "summary": "Remember a real example, not a rule.",
+      "skills": [
+        "Connecting",
+        "Reasoning"
+      ],
+      "moments": [
+        "learn",
+        "explain"
+      ],
+      "use_when": "a rule or a fact will not stay, but stories do.",
+      "steps": [
+        "Skip the abstract rule. Start with one real case: who, what happened, what it cost.",
+        "Give a second case that is different in one way.",
+        "Ask the person what the two cases have in common. That is the rule.",
+        "Next time, ask them to recall the case, not the rule."
+      ],
+      "shared_by": "",
+      "inspired_by": "Narrative reasoning in The Dyslexic Advantage by Brock and Fernette Eide",
+      "sources": [
+        {
+          "text": "interview",
+          "url": "https://dianerehm.org/shows/2012-02-15/dyslexic-brain"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/learn-from-cases.md"
+    },
+    {
+      "slug": "name-it-dont-number-it",
+      "name": "Name it, don't number it",
+      "emoji": "🏷️",
+      "summary": "Give things names you can picture, not codes.",
+      "skills": [
+        "Imagining",
+        "Communicating"
+      ],
+      "moments": [
+        "learn",
+        "explain",
+        "people"
+      ],
+      "use_when": "people must remember many items, versions, projects or options.",
+      "steps": [
+        "Find the codes and numbers people are struggling to remember.",
+        "Suggest a name for each one that carries a picture or a meaning.",
+        "Keep the names in one family, so they are easy to guess.",
+        "Use the names everywhere, and keep the codes only where a machine needs them."
+      ],
+      "shared_by": "",
+      "inspired_by": "IKEA founder Ingvar Kamprad, who was dyslexic and gave products names instead of numbers",
+      "sources": [
+        {
+          "text": "IKEA",
+          "url": "https://www.ikea.com/ae/en/cat/skadis-series-37813/"
+        },
+        {
+          "text": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IKEA"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/name-it-dont-number-it.md"
+    },
+    {
+      "slug": "name-what-you-need",
+      "name": "Name what you need",
+      "emoji": "🙋",
+      "summary": "Say what helps you, plainly, before it's a problem.",
+      "skills": [
+        "Communicating",
+        "Connecting"
+      ],
+      "moments": [
+        "people",
+        "plan"
+      ],
+      "use_when": "the person needs something to do their best work, and has not said it.",
+      "steps": [
+        "Ask what makes work easier for them: written follow-ups, more time, a call instead of a long email.",
+        "Turn it into one short, confident sentence. No apology.",
+        "Pick the right moment: a new job, a new manager, the start of a project.",
+        "Help them write the message, if they want."
+      ],
+      "shared_by": "",
+      "inspired_by": "David Flink, who has dyslexia and ADHD, founded the mentoring group Eye to Eye, and wrote Thinking Differently",
+      "sources": [
+        {
+          "text": "Teachers College",
+          "url": "https://www.tc.columbia.edu/articles/2021/march/hes-a-cnn-hero-alumnus-david-flink-views-ld-as-learning-differently/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/name-what-you-need.md"
+    },
+    {
+      "slug": "read-with-your-ears",
+      "name": "Read with your ears",
+      "emoji": "🎧",
+      "summary": "If reading is slow, listen instead.",
+      "skills": [
+        "Exploring"
+      ],
+      "moments": [
+        "learn"
+      ],
+      "use_when": "there is a lot to read, and reading it is slow or tiring.",
+      "steps": [
+        "Ask what needs to be read, and how long it is.",
+        "Suggest a way to listen: the phone's read-aloud, an audiobook, or a spoken summary from Claude.",
+        "For a long document, Claude first gives the answer and the to-dos, then the person listens to the parts that matter.",
+        "Afterwards, ask one question to check it went in."
+      ],
+      "shared_by": "",
+      "inspired_by": "the Yale Center for Dyslexia and Creativity, which lists text-to-speech and recorded books as accommodations, and Charles Schwab, who listens to audiobooks",
+      "sources": [
+        {
+          "text": "Yale",
+          "url": "https://dyslexia.yale.edu/resources/accommodations/time-and-tools/"
+        },
+        {
+          "text": "Yale",
+          "url": "https://www.dyslexia.yale.edu/story/charles-schwab/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/read-with-your-ears.md"
+    },
+    {
+      "slug": "repeat-until-it-sticks",
+      "name": "Repeat until it sticks",
+      "emoji": "🔁",
+      "summary": "Go over it again, a different way each time.",
+      "skills": [
+        "Reasoning"
+      ],
+      "moments": [
+        "learn"
+      ],
+      "use_when": "something must be learned or remembered, and once is not enough.",
+      "steps": [
+        "Say it plainly: going over it many times is a method, not a weakness.",
+        "Break the thing into small pieces.",
+        "Go over one piece several times, in a different way each time: read it, say it, draw it, use it.",
+        "Come back to it later. Ask the person to explain it back in their words."
+      ],
+      "shared_by": "Miguel Vicente",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/repeat-until-it-sticks.md"
+    },
+    {
+      "slug": "run-the-movie-forward",
+      "name": "Run the movie forward",
+      "emoji": "🎬",
+      "summary": "Play the future in your head, and watch where it breaks.",
+      "skills": [
+        "Imagining",
+        "Reasoning"
+      ],
+      "moments": [
+        "plan",
+        "idea"
+      ],
+      "use_when": "a decision depends on how things will change over time.",
+      "steps": [
+        "Set the scene: \"It's three months from now. You chose option A.\"",
+        "Play it forward in short scenes: next week, next month, next quarter.",
+        "Stop where something goes wrong. That is the risk to plan for.",
+        "Rewind, and play option B the same way."
+      ],
+      "shared_by": "",
+      "inspired_by": "Dynamic reasoning in The Dyslexic Advantage by Brock and Fernette Eide",
+      "sources": [
+        {
+          "text": "interview",
+          "url": "https://dianerehm.org/shows/2012-02-15/dyslexic-brain"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/run-the-movie-forward.md"
+    },
+    {
+      "slug": "start-from-the-end",
+      "name": "Start from the end",
+      "emoji": "🏁",
+      "summary": "Picture it done, then walk backwards.",
+      "skills": [
+        "Reasoning",
+        "Imagining"
+      ],
+      "moments": [
+        "plan",
+        "idea"
+      ],
+      "use_when": "the goal is clear but the path to it is not.",
+      "steps": [
+        "Ask the person to picture the finished result. \"It's done. What do you see?\"",
+        "Ask: \"What had to happen just before that?\"",
+        "Repeat, walking backwards, until you reach something they can do today.",
+        "Show the chain from today to the end."
+      ],
+      "shared_by": "starter strategy, written for v0.1.0. Waiting for community stories.",
+      "inspired_by": "the novelist John Irving, who is dyslexic and does not begin a novel until he knows the ending",
+      "sources": [
+        {
+          "text": "Academy of Achievement",
+          "url": "https://achievement.org/achiever/john-irving/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/start-from-the-end.md"
+    },
+    {
+      "slug": "talk-it-out",
+      "name": "Talk it out",
+      "emoji": "🗣️",
+      "summary": "Say it before you write it.",
+      "skills": [
+        "Communicating"
+      ],
+      "moments": [
+        "explain",
+        "stuck"
+      ],
+      "use_when": "the thoughts are there, but writing them down blocks them.",
+      "steps": [
+        "Invite the person to talk or type freely, in any order. Voice dictation is great for this.",
+        "Do not interrupt or correct. Ask \"and then?\" or \"why?\" to keep it flowing.",
+        "When they stop, play it back as 3 to 5 clear points.",
+        "Ask: \"Is that what you mean? What's missing?\""
+      ],
+      "shared_by": "starter strategy, written for v0.1.0. Waiting for community stories.",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/talk-it-out.md"
+    },
+    {
+      "slug": "tell-it-as-a-story",
+      "name": "Tell it as a story",
+      "emoji": "📖",
+      "summary": "Put the facts inside a story people remember.",
+      "skills": [
+        "Communicating",
+        "Connecting"
+      ],
+      "moments": [
+        "explain",
+        "people"
+      ],
+      "use_when": "people need to understand an idea, remember it, or care about it.",
+      "steps": [
+        "Find the person in the story: who has the problem?",
+        "Say what they want, and what stops them.",
+        "Say what changes, and what their life looks like after.",
+        "Put facts and numbers inside the story, not before it."
+      ],
+      "shared_by": "starter strategy, written for v0.1.0. Waiting for community stories.",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/tell-it-as-a-story.md"
+    },
+    {
+      "slug": "think-in-pictures",
+      "name": "Think in pictures",
+      "emoji": "🖼️",
+      "summary": "Turn the problem into a drawing.",
+      "skills": [
+        "Visualising"
+      ],
+      "moments": [
+        "learn",
+        "explain"
+      ],
+      "use_when": "an idea is abstract, or words are going round in circles.",
+      "steps": [
+        "Ask: \"If this were a place or a machine, what would it look like?\"",
+        "Turn the answer into a simple drawing or diagram.",
+        "Move things in the picture to test ideas. \"What if this box were bigger?\"",
+        "Bring the answer back into words at the end."
+      ],
+      "shared_by": "starter strategy, written for v0.1.0. Waiting for community stories.",
+      "inspired_by": "Charles Schwab, who says he is real good at concepts and visualization, and In the Mind's Eye by Thomas G. West",
+      "sources": [
+        {
+          "text": "Yale",
+          "url": "https://www.dyslexia.yale.edu/story/charles-schwab/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/think-in-pictures.md"
+    },
+    {
+      "slug": "train-it-another-way",
+      "name": "Train it another way",
+      "emoji": "🎸",
+      "summary": "Practise the weak skill through something you enjoy.",
+      "skills": [
+        "Exploring",
+        "Imagining"
+      ],
+      "moments": [
+        "learn"
+      ],
+      "use_when": "a skill is weak, and practising it directly is slow or painful.",
+      "steps": [
+        "Name the skill underneath the task: memory, coordination, focus, order.",
+        "Find an activity that trains the same skill in a different way, often one the person enjoys.",
+        "Suggest it as practice, alongside the main task.",
+        "Connect it back: show where the trained skill helps in the real task."
+      ],
+      "shared_by": "Miguel Vicente",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/train-it-another-way.md"
+    },
+    {
+      "slug": "use-the-context",
+      "name": "Use the context",
+      "emoji": "🔍",
+      "summary": "When a piece is missing, read the whole picture around it.",
+      "skills": [
+        "Reasoning",
+        "Connecting"
+      ],
+      "moments": [
+        "learn",
+        "stuck"
+      ],
+      "use_when": "a word, a fact or a detail is missing, but the situation around it is clear.",
+      "steps": [
+        "Do not stop at the missing piece. Look at everything around it.",
+        "Ask: \"Given all of this, what must the missing piece be?\"",
+        "Make a best guess, and say how sure you are.",
+        "Check the guess against one more clue."
+      ],
+      "shared_by": "",
+      "inspired_by": "Carol Greider, Nobel Prize winner in 2009, who says dyslexia taught her to pull information out of context and put ideas together",
+      "sources": [
+        {
+          "text": "Yale",
+          "url": "https://dyslexia.yale.edu/story/carol-greider-ph-d/"
+        }
+      ],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/use-the-context.md"
+    },
+    {
+      "slug": "what-is-this-like",
+      "name": "What is this like?",
+      "emoji": "🔗",
+      "summary": "Borrow the answer from another area of life.",
+      "skills": [
+        "Connecting",
+        "Reasoning"
+      ],
+      "moments": [
+        "idea",
+        "stuck"
+      ],
+      "use_when": "a problem feels new and there is no obvious method.",
+      "steps": [
+        "Ask: \"What else does this remind you of? It can be from any area of life.\"",
+        "Take the connection seriously. Ask how that other thing is solved.",
+        "Bring that solution back and test it on the real problem.",
+        "If the match breaks, say where, and try another connection."
+      ],
+      "shared_by": "starter strategy, written for v0.1.0. Waiting for community stories.",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/what-is-this-like.md"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 379" width="640" height="379" role="img" aria-label="Name it, don&#x27;t number it: Give things names you can picture, not codes. Steps: Find the codes and numbers people are struggling to remember. Suggest a name for each one that carries a picture or a meaning. Keep the names in one family, so they are easy to guess." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="379" rx="18" fill="#FFFDF8"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#D9579B" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#1F2430" text-anchor="start">🏷️</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#1F2430" text-anchor="start">Name it, don&#x27;t number it</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#D9579B" text-anchor="start">Imagining · Communicating</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#1F2430" text-anchor="start">Give things names you can picture, not codes.</text>
+<text x="40.0" y="160.0" font-size="12" font-weight="700" fill="#5B6170" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="179" r="11" fill="#D9579B"/>
+<text x="51.0" y="184.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="184.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Find the codes and numbers people are struggling to</text>
+<text x="72.0" y="205.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">remember.</text>
+<circle cx="51" cy="229" r="11" fill="#D9579B"/>
+<text x="51.0" y="234.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="234.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Suggest a name for each one that carries a picture or a</text>
+<text x="72.0" y="255.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">meaning.</text>
+<circle cx="51" cy="279" r="11" fill="#D9579B"/>
+<text x="51.0" y="284.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="284.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Keep the names in one family, so they are easy to guess.</text>
+<line x1="40" y1="309" x2="600" y2="309" stroke="#D8D4CA"/>
+<text x="40.0" y="333.0" font-size="13" font-weight="400" fill="#5B6170" text-anchor="start">Inspired by IKEA founder Ingvar Kamprad, who was dyslexic and gave</text>
+<text x="40.0" y="351.0" font-size="13" font-weight="400" fill="#5B6170" text-anchor="start">products names instead of numbers</text>
+</svg>

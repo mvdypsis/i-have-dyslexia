@@ -1,3 +1,9 @@
+---
+emoji: "🔁"
+summary: "Go over it again, a different way each time."
+moments: "learn"
+---
+
 # Repeat until it sticks
 
 **Dyslexic Thinking skill:** Reasoning

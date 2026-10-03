@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find your strategy</title>
+<meta name="description" content="Thinking strategies from dyslexic thinkers. Pick what's happening, get a strategy, and a prompt to use it with Claude.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FFFDF8; --fg: #1F2430; --muted: #5B6170; --panel: #F4F1EA; --line: #D8D4CA;
+  --accent: #7C6CF2; --on-accent: #FFFFFF; --focus: #2F8FE0;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D1117; --fg: #E6EDF3; --muted: #9DA7B3; --panel: #161B22; --line: #30363D;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0D1117; --fg: #E6EDF3; --muted: #9DA7B3; --panel: #161B22; --line: #30363D;
+}
+* { box-sizing: border-box; }
+html { font-size: 19px; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font-family: Lexend, Verdana, "Segoe UI", Arial, sans-serif;
+  line-height: 1.6; letter-spacing: 0.01em;
+}
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { text-align: center; margin-bottom: 36px; }
+header img { width: 84px; height: 84px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 12px 0 8px; }
+h2 { font-size: 1.3rem; margin: 40px 0 16px; }
+p.lead { color: var(--muted); margin: 0 auto; max-width: 34em; }
+.moments { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: 12px; }
+.moment {
+  display: flex; gap: 12px; align-items: center; text-align: left;
+  font: inherit; color: inherit; background: var(--panel);
+  border: 2px solid var(--line); border-radius: 14px; padding: 14px 16px; cursor: pointer;
+}
+.moment:hover { border-color: var(--accent); }
+.moment[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+.moment .e { font-size: 1.5rem; }
+.moment b { display: block; }
+.moment span.s { color: var(--muted); font-size: 0.85rem; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-left: 8px solid var(--skill, var(--accent));
+  border-radius: 14px; padding: 20px 22px; margin: 0 0 16px;
+}
+.card h3 { margin: 0; font-size: 1.3rem; }
+.card .skill { color: var(--skill); font-weight: 700; font-size: 0.85rem; }
+.card .summary { font-weight: 600; margin: 8px 0; }
+.card ol { padding-left: 1.3em; margin: 8px 0; }
+.card li { margin: 4px 0; }
+.card .credit { color: var(--muted); font-size: 0.8rem; margin-top: 10px; }
+.card .credit a { color: inherit; }
+.prompt {
+  margin-top: 12px; padding: 12px 14px; border-radius: 10px; border: 1px dashed var(--line);
+  background: var(--bg); font-size: 0.9rem;
+}
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+button.btn, a.btn {
+  font: inherit; font-weight: 600; font-size: 0.9rem; border-radius: 10px; padding: 8px 16px;
+  cursor: pointer; text-decoration: none; display: inline-block;
+}
+.btn.primary { background: var(--accent); color: var(--on-accent); border: 2px solid var(--accent); }
+.btn.ghost { background: transparent; color: var(--fg); border: 2px solid var(--line); }
+.principle { font-size: 1.1rem; font-weight: 600; }
+details.all summary { cursor: pointer; font-weight: 600; }
+.cta { text-align: center; background: var(--panel); border-radius: 16px; padding: 24px 16px; margin-top: 48px; }
+footer { color: var(--muted); font-size: 0.8rem; text-align: center; margin-top: 40px; }
+footer a { color: inherit; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="logo.svg" alt="">
+    <h1>Find your strategy</h1>
+    <p class="lead">Ways of thinking shared by dyslexic people. Pick what's happening. Get a strategy, and a prompt to use it with Claude.</p>
+  </header>
+
+  <section aria-labelledby="q1">
+    <h2 id="q1">What's happening?</h2>
+    <div class="moments" id="moments"></div>
+  </section>
+
+  <section id="result" aria-live="polite"></section>
+
+  <section>
+    <h2>All strategies</h2>
+    <details class="all"><summary>Show all <span id="count"></span> strategies</summary><div id="all" style="margin-top:16px"></div></details>
+  </section>
+
+  <section class="cta">
+    <h2 style="margin-top:0">How do you think?</h2>
+    <p>If a way of thinking works for you, share it. It joins the library with your name. Spelling does not matter.</p>
+    <a class="btn primary" href="https://github.com/mvdypsis/i-have-dyslexia/issues/new?template=share-a-strategy.yml">Share a strategy</a>
+  </section>
+
+  <footer>
+    <p><a href="https://github.com/mvdypsis/i-have-dyslexia">i-have-dyslexia</a> · a Claude skill built by dyslexic thinkers · MIT licence<br>
+    Skills named by <a href="https://www.madebydyslexia.org/">Made By Dyslexia</a>.</p>
+  </footer>
+</main>
+
+<script>
+const MOMENTS = [
+  { id: "stuck", e: "🧱", t: "I'm stuck", s: "It's going round in my head" },
+  { id: "idea", e: "💡", t: "I need a new idea", s: "The usual way isn't working" },
+  { id: "learn", e: "📚", t: "I'm learning something", s: "It won't stick" },
+  { id: "explain", e: "🗣️", t: "I need to explain it", s: "To a person, or on paper" },
+  { id: "plan", e: "🧭", t: "I'm starting something big", s: "I don't know where to begin" },
+  { id: "people", e: "🤝", t: "It's about other people", s: "Customers, a team, a boss" },
+  { id: "low", e: "🌧️", t: "I failed, or want to give up", s: "I need to keep going" },
+];
+const PRINCIPLES = [
+  ["Start from love", "People aim high when they feel safe and valued."],
+  ["Do your best", "Whatever the task."],
+  ["Learn to love what you do", "Interest makes the hard parts lighter."],
+  ["Be curious", "Ask why. Follow what pulls you."],
+  ["Learn from the best", "Find who does it well, and learn how they think."],
+  ["Discipline and determination", "Show up again tomorrow."],
+  ["Never give up", "A failed attempt is information, not an ending."],
+  ["Balance", "Work, learning, family and rest all need room."],
+];
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+let DATA = { skills: {}, strategies: [] };
+
+function promptFor(s) {
+  return `Use the i-have-dyslexia skill. Let's try "${s.name}" on this: `;
+}
+
+function cardHTML(s) {
+  const sources = s.sources.length
+    ? ` · Sources: ${s.sources.map(l => `<a href="${esc(l.url)}">${esc(l.text)}</a>`).join(", ")}` : "";
+  const credit = s.inspired_by ? `Inspired by ${esc(s.inspired_by)}${sources}` : `Shared by ${esc(s.shared_by)}`;
+  return `<article class="card" style="--skill:${DATA.skills[s.skills[0]]}">
+    <h3>${esc(s.emoji)} ${esc(s.name)}</h3>
+    <div class="skill">${s.skills.map(esc).join(" · ")}</div>
+    <p class="summary">${esc(s.summary)}</p>
+    <ol>${s.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol>
+    <div class="prompt"><span class="sr">Prompt: </span>${esc(promptFor(s))}<span style="color:var(--muted)">[describe your situation]</span></div>
+    <div class="row">
+      <button class="btn primary" data-copy="${esc(promptFor(s))}">Copy prompt</button>
+      <a class="btn ghost" href="${esc(s.url)}">Read more</a>
+    </div>
+    <div class="credit">${credit}</div>
+  </article>`;
+}
+
+function show(id) {
+  if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+  document.querySelectorAll(".moment").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.id === id)));
+  const out = document.getElementById("result");
+  if (id === "low") {
+    const [name, line] = PRINCIPLES[Math.floor(Math.random() * PRINCIPLES.length)];
+    out.innerHTML = `<h2>A principle for today</h2>
+      <article class="card"><p class="principle">${esc(name)}</p><p>${esc(line)}</p>
+      <p>Then pick one small thing you can try again tomorrow.</p>
+      <div class="row"><button class="btn ghost" id="another">Another principle</button></div>
+      <div class="credit">From the principles shared by the founder.</div></article>`;
+    document.getElementById("another").onclick = () => show("low");
+    return;
+  }
+  const matches = DATA.strategies.filter(s => s.moments.includes(id))
+    .sort((a, b) => a.moments.indexOf(id) - b.moments.indexOf(id)).slice(0, 3);
+  out.innerHTML = `<h2>Try one of these</h2>` + matches.map(cardHTML).join("") +
+    `<p style="color:var(--muted)">Pick the one that sounds like you. One is enough.</p>`;
+  out.querySelector("h2").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+document.addEventListener("click", async e => {
+  const b = e.target.closest("[data-copy]");
+  if (!b) return;
+  try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = "Copied ✓"; }
+  catch { b.textContent = "Select the text above to copy"; }
+  setTimeout(() => (b.textContent = "Copy prompt"), 2000);
+});
+
+document.getElementById("moments").innerHTML = MOMENTS.map(m =>
+  `<button class="moment" data-id="${m.id}" aria-pressed="false"><span class="e" aria-hidden="true">${m.e}</span><span><b>${esc(m.t)}</b><span class="s">${esc(m.s)}</span></span></button>`
+).join("");
+document.getElementById("moments").addEventListener("click", e => {
+  const b = e.target.closest(".moment"); if (b) show(b.dataset.id);
+});
+
+fetch("strategies.json").then(r => r.json()).then(d => {
+  DATA = d;
+  document.getElementById("count").textContent = d.strategies.length;
+  document.getElementById("all").innerHTML = d.strategies.map(cardHTML).join("");
+  const start = location.hash.slice(1);
+  if (MOMENTS.some(m => m.id === start)) show(start);
+}).catch(() => {
+  document.getElementById("result").innerHTML = "<p>Could not load the strategies. Try reloading the page.</p>";
+});
+</script>
+</body>
+</html>

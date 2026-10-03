@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" role="img" aria-label="Demo: someone says they are stuck on a project. Claude answers: let's try Draw it as a map. A map draws itself with the project in the middle and four branches: money, team, deadline, customers. The deadline is circled as the knot, and Claude suggests one first step." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<style>
+  .bg { fill: #FFFDF8; } .fg { fill: #1F2430; } .muted { fill: #5B6170; } .panel { fill: #F4F1EA; }
+  .line { stroke: #7C6CF2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0D1117; } .fg { fill: #E6EDF3; } .muted { fill: #9DA7B3; } .panel { fill: #161B22; }
+  }
+  .a { opacity: 0; animation: show 12s infinite; }
+  .d1 { animation-name: s1; } .d2 { animation-name: s2; } .d3 { animation-name: s3; }
+  .d4 { animation-name: s4; } .d5 { animation-name: s5; } .d6 { animation-name: s6; }
+  .d7 { animation-name: s7; } .d8 { animation-name: s8; } .d9 { animation-name: s9; }
+  .branch { stroke-dasharray: 200; stroke-dashoffset: 200; animation: draw 12s infinite; }
+  .b1 { animation-name: dr1; } .b2 { animation-name: dr2; } .b3 { animation-name: dr3; } .b4 { animation-name: dr4; }
+  @keyframes s1 { 0%,3% {opacity:0} 6%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s2 { 0%,12% {opacity:0} 16%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s3 { 0%,22% {opacity:0} 26%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s4 { 0%,32% {opacity:0} 35%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s5 { 0%,40% {opacity:0} 43%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s6 { 0%,48% {opacity:0} 51%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s7 { 0%,56% {opacity:0} 59%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s8 { 0%,66% {opacity:0} 70%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes s9 { 0%,76% {opacity:0} 80%,94% {opacity:1} 100% {opacity:0} }
+  @keyframes dr1 { 0%,32% {stroke-dashoffset:200} 37%,94% {stroke-dashoffset:0} 100% {stroke-dashoffset:200} }
+  @keyframes dr2 { 0%,40% {stroke-dashoffset:200} 45%,94% {stroke-dashoffset:0} 100% {stroke-dashoffset:200} }
+  @keyframes dr3 { 0%,48% {stroke-dashoffset:200} 53%,94% {stroke-dashoffset:0} 100% {stroke-dashoffset:200} }
+  @keyframes dr4 { 0%,56% {stroke-dashoffset:200} 61%,94% {stroke-dashoffset:0} 100% {stroke-dashoffset:200} }
+  @media (prefers-reduced-motion: reduce) {
+    .a, .branch { animation: none; opacity: 1; stroke-dashoffset: 0; }
+  }
+</style>
+<rect class="bg" width="800" height="460" rx="18"/>
+
+<!-- the chat, on the left -->
+<g class="a d1">
+  <rect class="panel" x="24" y="28" width="300" height="62" rx="14"/>
+  <text class="fg" x="40" y="54" font-size="15">I'm stuck on my project and</text>
+  <text class="fg" x="40" y="76" font-size="15">I don't even know why.</text>
+</g>
+<g class="a d2">
+  <rect x="24" y="104" width="300" height="62" rx="14" fill="#7C6CF2"/>
+  <text x="40" y="130" font-size="15" fill="#FFFFFF">Let's try 🗺️ Draw it as a map.</text>
+  <text x="40" y="152" font-size="15" fill="#FFFFFF">What's the project, in a few words?</text>
+</g>
+<g class="a d3">
+  <rect class="panel" x="24" y="180" width="300" height="40" rx="14"/>
+  <text class="fg" x="40" y="206" font-size="15">Launching the new website.</text>
+</g>
+<g class="a d8">
+  <rect x="24" y="300" width="300" height="84" rx="14" fill="#7C6CF2"/>
+  <text x="40" y="326" font-size="15" fill="#FFFFFF">The knot is the deadline. It</text>
+  <text x="40" y="348" font-size="15" fill="#FFFFFF">pulls on the team and the money.</text>
+  <text x="40" y="370" font-size="15" fill="#FFFFFF" font-weight="700">▶ Start here: move the date?</text>
+</g>
+
+<!-- the map, on the right -->
+<g fill="none" stroke-width="4" stroke-linecap="round">
+  <path class="branch b1 line" d="M560 230 C 520 190, 500 150, 470 120"/>
+  <path class="branch b2 line" d="M560 230 C 610 190, 640 150, 680 120"/>
+  <path class="branch b3 line" d="M560 230 C 520 280, 500 320, 470 350"/>
+  <path class="branch b4 line" d="M560 230 C 610 280, 640 320, 690 350"/>
+</g>
+<g class="a d3">
+  <circle cx="560" cy="230" r="52" fill="#7C6CF2"/>
+  <text x="560" y="226" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">New</text>
+  <text x="560" y="244" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">website</text>
+</g>
+<g class="a d4"><circle cx="470" cy="120" r="9" fill="#16A88E"/><text class="fg" x="470" y="98" font-size="15" font-weight="600" text-anchor="middle">💶 Money</text></g>
+<g class="a d5"><circle cx="680" cy="120" r="9" fill="#16A88E"/><text class="fg" x="680" y="98" font-size="15" font-weight="600" text-anchor="middle">👥 Team</text></g>
+<g class="a d6"><circle cx="470" cy="350" r="9" fill="#E0922A"/><text class="fg" x="432" y="355" font-size="15" font-weight="600" text-anchor="end">⏰ Deadline</text></g>
+<g class="a d7"><circle cx="690" cy="350" r="9" fill="#16A88E"/><text class="fg" x="690" y="384" font-size="15" font-weight="600" text-anchor="middle">🛒 Customers</text></g>
+<g class="a d8">
+  <circle cx="470" cy="350" r="26" fill="none" stroke="#E0922A" stroke-width="3.5"/>
+  <text x="470" y="398" font-size="14" font-weight="700" fill="#E0922A" text-anchor="middle">the knot</text>
+</g>
+<g class="a d9">
+  <text class="muted" x="400" y="446" font-size="13" text-anchor="middle">i-have-dyslexia · strategy shared by Miguel Vicente</text>
+</g>
+</svg>

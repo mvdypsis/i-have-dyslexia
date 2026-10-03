@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 379" width="640" height="379" role="img" aria-label="Talk it out: Say it before you write it. Steps: Invite the person to talk or type freely, in any order. Voice dictation is great for this. Do not interrupt or correct. Ask &quot;and then?&quot; or &quot;why?&quot; to keep it flowing. When they stop, play it back as 3 to 5 clear points." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="379" rx="18" fill="#0D1117"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#E0922A" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#E6EDF3" text-anchor="start">🗣️</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#E6EDF3" text-anchor="start">Talk it out</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#E0922A" text-anchor="start">Communicating</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">Say it before you write it.</text>
+<text x="40.0" y="160.0" font-size="12" font-weight="700" fill="#9DA7B3" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="179" r="11" fill="#E0922A"/>
+<text x="51.0" y="184.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="184.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Invite the person to talk or type freely, in any order.</text>
+<text x="72.0" y="205.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Voice dictation is great for this.</text>
+<circle cx="51" cy="229" r="11" fill="#E0922A"/>
+<text x="51.0" y="234.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="234.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Do not interrupt or correct. Ask &quot;and then?&quot; or &quot;why?&quot; to</text>
+<text x="72.0" y="255.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">keep it flowing.</text>
+<circle cx="51" cy="279" r="11" fill="#E0922A"/>
+<text x="51.0" y="284.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="284.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">When they stop, play it back as 3 to 5 clear points.</text>
+<line x1="40" y1="309" x2="600" y2="309" stroke="#30363D"/>
+<text x="40.0" y="333.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">Shared by starter strategy, written for v0.1.0. Waiting for community</text>
+<text x="40.0" y="351.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">stories.</text>
+</svg>

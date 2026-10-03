@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" role="img" aria-label="Learn by changing roles: See the problem from inside someone else&#x27;s job. Steps: Ask who else touches the problem: the customer, the seller, the builder, the boss. Pick one role. Look at the problem from inside that role. Ask: &quot;What does this person see that you don&#x27;t?&quot;" font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="340" rx="18" fill="#FFFDF8"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#16A88E" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#1F2430" text-anchor="start">🎭</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#1F2430" text-anchor="start">Learn by changing roles</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#16A88E" text-anchor="start">Connecting · Exploring</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#1F2430" text-anchor="start">See the problem from inside someone else&#x27;s job.</text>
+<text x="40.0" y="160.0" font-size="12" font-weight="700" fill="#5B6170" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="179" r="11" fill="#16A88E"/>
+<text x="51.0" y="184.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="184.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Ask who else touches the problem: the customer, the seller,</text>
+<text x="72.0" y="205.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">the builder, the boss.</text>
+<circle cx="51" cy="229" r="11" fill="#16A88E"/>
+<text x="51.0" y="234.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="234.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Pick one role. Look at the problem from inside that role.</text>
+<circle cx="51" cy="258" r="11" fill="#16A88E"/>
+<text x="51.0" y="263.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="263.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Ask: &quot;What does this person see that you don&#x27;t?&quot;</text>
+<line x1="40" y1="288" x2="600" y2="288" stroke="#D8D4CA"/>
+<text x="40.0" y="312.0" font-size="13" font-weight="400" fill="#5B6170" text-anchor="start">Shared by Miguel Vicente</text>
+</svg>

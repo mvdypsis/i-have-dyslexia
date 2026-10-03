@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 426" width="640" height="426" role="img" aria-label="Run the movie forward: Play the future in your head, and watch where it breaks. Steps: Set the scene: &quot;It&#x27;s three months from now. You chose option A.&quot; Play it forward in short scenes: next week, next month, next quarter. Stop where something goes wrong. That is the risk to plan for." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="426" rx="18" fill="#FFFDF8"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#D9579B" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#1F2430" text-anchor="start">🎬</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#1F2430" text-anchor="start">Run the movie forward</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#D9579B" text-anchor="start">Imagining · Reasoning</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#1F2430" text-anchor="start">Play the future in your head, and watch where it</text>
+<text x="40.0" y="150.0" font-size="18" font-weight="600" fill="#1F2430" text-anchor="start">breaks.</text>
+<text x="40.0" y="186.0" font-size="12" font-weight="700" fill="#5B6170" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="205" r="11" fill="#D9579B"/>
+<text x="51.0" y="210.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="210.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Set the scene: &quot;It&#x27;s three months from now. You chose option</text>
+<text x="72.0" y="231.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">A.&quot;</text>
+<circle cx="51" cy="255" r="11" fill="#D9579B"/>
+<text x="51.0" y="260.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="260.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Play it forward in short scenes: next week, next month, next</text>
+<text x="72.0" y="281.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">quarter.</text>
+<circle cx="51" cy="305" r="11" fill="#D9579B"/>
+<text x="51.0" y="310.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="310.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Stop where something goes wrong. That is the risk to plan</text>
+<text x="72.0" y="331.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">for.</text>
+<line x1="40" y1="356" x2="600" y2="356" stroke="#D8D4CA"/>
+<text x="40.0" y="380.0" font-size="13" font-weight="400" fill="#5B6170" text-anchor="start">Inspired by Dynamic reasoning in The Dyslexic Advantage by Brock and</text>
+<text x="40.0" y="398.0" font-size="13" font-weight="400" fill="#5B6170" text-anchor="start">Fernette Eide</text>
+</svg>

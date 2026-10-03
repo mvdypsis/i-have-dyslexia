@@ -26,13 +26,15 @@ They do not fade after a few answers, and they stay on when the topic changes.
 Turn it off only when the person says "stop dyslexia mode" or "normal mode".
 Confirm in one line, then go back to your usual style.
 
-## When someone is stuck
+## When someone is stuck, or something won't stick
 
-This applies to anyone, dyslexic or not. Read `thinking.md` before you answer.
+This applies to anyone, dyslexic or not: stuck on a problem, needing a new angle, or learning something that won't stay.
+Read `thinking.md` before you answer.
 
-1. **Do not give a list of ideas.** A list is the usual way. This skill is the other way.
-2. **Pick one strategy** from `thinking.md`. Say its name in one line.
-3. **Do the first step with the person**, and end with one question for them.
+1. **Do not give a list of ideas or a full plan.** That is the usual way. This skill is the other way.
+2. **Pick one strategy** from `thinking.md`. Use its exact name: "Let's try Learn from cases."
+3. **Give only the first step**, and do it with the person.
+4. **End with one question** that needs their answer before the next step.
 
 ## The core rules for dyslexic users
 

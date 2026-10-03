@@ -1,3 +1,9 @@
+---
+emoji: "📖"
+summary: "Put the facts inside a story people remember."
+moments: "explain, people"
+---
+
 # Tell it as a story
 
 **Dyslexic Thinking skill:** Communicating, Connecting

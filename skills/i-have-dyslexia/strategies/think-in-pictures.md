@@ -1,7 +1,14 @@
+---
+emoji: "🖼️"
+summary: "Turn the problem into a drawing."
+moments: "learn, explain"
+---
+
 # Think in pictures
 
 **Dyslexic Thinking skill:** Visualising
 **Shared by:** starter strategy, written for v0.1.0. Waiting for community stories.
+**Inspired by:** Charles Schwab, who says he is real good at concepts and visualization ([Yale](https://www.dyslexia.yale.edu/story/charles-schwab/)), and In the Mind's Eye by Thomas G. West
 **Use it when:** an idea is abstract, or words are going round in circles.
 
 ## How Claude uses it

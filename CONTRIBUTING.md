@@ -30,8 +30,17 @@ Remove any private information first.
 
 1. You describe it in the form, in your own words.
 2. A maintainer writes it up with `strategies/_template.md`, and checks it with you.
-3. It goes into `skills/i-have-dyslexia/strategies/`, with your name.
-4. If it fits one of the starter strategies, your story is added to that file instead.
+3. They run `python3 tools/build-visuals.py`. Your strategy gets its card, its place on the map and its spot on the website.
+4. It goes into `skills/i-have-dyslexia/strategies/`, with your name.
+5. If it fits one of the starter strategies, your story is added to that file instead.
+
+## A strategy from a book or a public person
+
+You can also suggest a strategy inspired by a book, or by a dyslexic person who has spoken about how they think.
+
+- Use **Inspired by** instead of **Shared by**, with a link to the source.
+- The link must load, and must say what the strategy claims.
+- No myths: only people whose dyslexia is confirmed in a public source.
 
 ## Changing the skill yourself
 

@@ -5,7 +5,7 @@ The skill tells Claude to write short sentences, short paragraphs, no em
 dashes and no italics. A skill that breaks its own rules teaches Claude the
 opposite, so every Markdown file here is checked against them.
 
-Skipped on purpose: code blocks, tables, blockquotes (the "before" side of
+Skipped on purpose: code blocks, tables, HTML lines, blockquotes (the "before" side of
 an example is meant to be hard to read), YAML frontmatter, and evals/.
 
 Exit 0 when clean, 1 when there are problems. Standard library only.
@@ -51,8 +51,9 @@ def blocks(lines):
             in_code = not in_code
             continue
         stripped = line.strip()
-        skip = in_code or stripped.startswith(("|", ">", "#", "<!--")) or stripped == "---"
-        is_item = bool(re.match(r"^\s*([-*]|\d+\.)\s", line))
+        skip = in_code or stripped.startswith(("|", ">", "#", "<")) or stripped == "---"
+        # A labelled field ("**Use it when:** ...") stands alone, like a list item.
+        is_item = bool(re.match(r"^\s*([-*]|\d+\.)\s", line)) or bool(re.match(r"^\*\*[^*]+:\*\*", line))
         if skip or not stripped or is_item:
             if buf:
                 yield start, " ".join(buf)

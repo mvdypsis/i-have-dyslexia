@@ -1,3 +1,9 @@
+---
+emoji: "🎭"
+summary: "See the problem from inside someone else's job."
+moments: "idea, people"
+---
+
 # Learn by changing roles
 
 **Dyslexic Thinking skill:** Connecting, Exploring

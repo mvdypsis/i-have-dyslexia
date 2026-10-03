@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 384" width="640" height="384" role="img" aria-label="Use the context: When a piece is missing, read the whole picture around it. Steps: Do not stop at the missing piece. Look at everything around it. Ask: &quot;Given all of this, what must the missing piece be?&quot; Make a best guess, and say how sure you are." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="384" rx="18" fill="#0D1117"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#2F8FE0" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#E6EDF3" text-anchor="start">🔍</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#E6EDF3" text-anchor="start">Use the context</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#2F8FE0" text-anchor="start">Reasoning · Connecting</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">When a piece is missing, read the whole picture</text>
+<text x="40.0" y="150.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">around it.</text>
+<text x="40.0" y="186.0" font-size="12" font-weight="700" fill="#9DA7B3" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="205" r="11" fill="#2F8FE0"/>
+<text x="51.0" y="210.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="210.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Do not stop at the missing piece. Look at everything around</text>
+<text x="72.0" y="231.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">it.</text>
+<circle cx="51" cy="255" r="11" fill="#2F8FE0"/>
+<text x="51.0" y="260.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="260.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Ask: &quot;Given all of this, what must the missing piece be?&quot;</text>
+<circle cx="51" cy="284" r="11" fill="#2F8FE0"/>
+<text x="51.0" y="289.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="289.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Make a best guess, and say how sure you are.</text>
+<line x1="40" y1="314" x2="600" y2="314" stroke="#30363D"/>
+<text x="40.0" y="338.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">Inspired by Carol Greider, Nobel Prize winner in 2009, who says dyslexia</text>
+<text x="40.0" y="356.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">taught her to pull information out of context and put ideas together</text>
+</svg>

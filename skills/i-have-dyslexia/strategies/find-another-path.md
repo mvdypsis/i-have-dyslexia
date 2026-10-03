@@ -1,3 +1,9 @@
+---
+emoji: "🛤️"
+summary: "When the usual way is blocked, find three others."
+moments: "stuck, idea"
+---
+
 # Find another path
 
 **Dyslexic Thinking skill:** Exploring, Imagining

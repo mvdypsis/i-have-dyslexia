@@ -1,7 +1,14 @@
+---
+emoji: "🏁"
+summary: "Picture it done, then walk backwards."
+moments: "plan, idea"
+---
+
 # Start from the end
 
 **Dyslexic Thinking skill:** Reasoning, Imagining
 **Shared by:** starter strategy, written for v0.1.0. Waiting for community stories.
+**Inspired by:** the novelist John Irving, who is dyslexic and does not begin a novel until he knows the ending ([Academy of Achievement](https://achievement.org/achiever/john-irving/))
 **Use it when:** the goal is clear but the path to it is not.
 
 ## How Claude uses it

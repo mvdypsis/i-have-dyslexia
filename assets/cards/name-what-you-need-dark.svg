@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 379" width="640" height="379" role="img" aria-label="Name what you need: Say what helps you, plainly, before it&#x27;s a problem. Steps: Ask what makes work easier for them: written follow-ups, more time, a call instead of a long email. Turn it into one short, confident sentence. No apology. Pick the right moment: a new job, a new manager, the start of a project." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="379" rx="18" fill="#0D1117"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#E0922A" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#E6EDF3" text-anchor="start">🙋</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#E6EDF3" text-anchor="start">Name what you need</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#E0922A" text-anchor="start">Communicating · Connecting</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">Say what helps you, plainly, before it&#x27;s a problem.</text>
+<text x="40.0" y="160.0" font-size="12" font-weight="700" fill="#9DA7B3" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="179" r="11" fill="#E0922A"/>
+<text x="51.0" y="184.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="184.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Ask what makes work easier for them: written follow-ups,</text>
+<text x="72.0" y="205.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">more time, a call instead of a long email.</text>
+<circle cx="51" cy="229" r="11" fill="#E0922A"/>
+<text x="51.0" y="234.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="234.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Turn it into one short, confident sentence. No apology.</text>
+<circle cx="51" cy="258" r="11" fill="#E0922A"/>
+<text x="51.0" y="263.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="263.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Pick the right moment: a new job, a new manager, the start</text>
+<text x="72.0" y="284.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">of a project.</text>
+<line x1="40" y1="309" x2="600" y2="309" stroke="#30363D"/>
+<text x="40.0" y="333.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">Inspired by David Flink, who has dyslexia and ADHD, founded the mentoring</text>
+<text x="40.0" y="351.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">group Eye to Eye, and wrote Thinking Differently</text>
+</svg>

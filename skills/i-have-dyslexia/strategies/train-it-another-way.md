@@ -1,3 +1,9 @@
+---
+emoji: "🎸"
+summary: "Practise the weak skill through something you enjoy."
+moments: "learn"
+---
+
 # Train it another way
 
 **Dyslexic Thinking skill:** Exploring, Imagining

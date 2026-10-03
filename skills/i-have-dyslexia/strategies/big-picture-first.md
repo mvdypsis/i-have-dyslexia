@@ -1,7 +1,14 @@
+---
+emoji: "🔭"
+summary: "See the whole before the details."
+moments: "stuck, learn, plan"
+---
+
 # Big picture first
 
 **Dyslexic Thinking skill:** Visualising, Reasoning
 **Shared by:** starter strategy, written for v0.1.0. Waiting for community stories.
+**Inspired by:** dyslexic leaders described by Fortune as focusing on the big picture ([Fortune, 2002](https://fortune.com/2002/05/13/the-dyslexic-ceo))
 **Use it when:** details are drowning the person, or they cannot see why the parts matter.
 
 ## How Claude uses it

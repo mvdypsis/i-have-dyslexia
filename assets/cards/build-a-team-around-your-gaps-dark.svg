@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 426" width="640" height="426" role="img" aria-label="Build a team around your gaps: Do what you&#x27;re great at. Hand the rest to someone who&#x27;s great at it. Steps: List the tasks of the project. Mark each one: energises me, or drains me. For each draining task, ask who could do it well: a colleague, a friend, a tool, Claude. Keep the tasks only you can do. Hand off one draining task this week." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="426" rx="18" fill="#0D1117"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#16A88E" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#E6EDF3" text-anchor="start">🧩</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#E6EDF3" text-anchor="start">Build a team around your gaps</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#16A88E" text-anchor="start">Connecting</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">Do what you&#x27;re great at. Hand the rest to someone</text>
+<text x="40.0" y="150.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">who&#x27;s great at it.</text>
+<text x="40.0" y="186.0" font-size="12" font-weight="700" fill="#9DA7B3" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="205" r="11" fill="#16A88E"/>
+<text x="51.0" y="210.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="210.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">List the tasks of the project. Mark each one: energises me,</text>
+<text x="72.0" y="231.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">or drains me.</text>
+<circle cx="51" cy="255" r="11" fill="#16A88E"/>
+<text x="51.0" y="260.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="260.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">For each draining task, ask who could do it well: a</text>
+<text x="72.0" y="281.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">colleague, a friend, a tool, Claude.</text>
+<circle cx="51" cy="305" r="11" fill="#16A88E"/>
+<text x="51.0" y="310.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="310.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Keep the tasks only you can do. Hand off one draining task</text>
+<text x="72.0" y="331.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">this week.</text>
+<line x1="40" y1="356" x2="600" y2="356" stroke="#30363D"/>
+<text x="40.0" y="380.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">Inspired by Richard Branson on delegating what he found difficult, and</text>
+<text x="40.0" y="398.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">Kinko&#x27;s founder Paul Orfalea</text>
+</svg>

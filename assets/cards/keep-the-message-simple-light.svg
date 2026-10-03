@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 358" width="640" height="358" role="img" aria-label="Keep the message simple: If it takes a page to explain, it isn&#x27;t ready. Steps: Ask the person to say the idea in one sentence a 12-year-old would get. Cut every word that does not change the meaning. Test it: &quot;If someone hears only this, what will they do?&quot;" font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="358" rx="18" fill="#FFFDF8"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#E0922A" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#1F2430" text-anchor="start">🎯</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#1F2430" text-anchor="start">Keep the message simple</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#E0922A" text-anchor="start">Communicating</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#1F2430" text-anchor="start">If it takes a page to explain, it isn&#x27;t ready.</text>
+<text x="40.0" y="160.0" font-size="12" font-weight="700" fill="#5B6170" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="179" r="11" fill="#E0922A"/>
+<text x="51.0" y="184.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="184.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Ask the person to say the idea in one sentence a 12-year-old</text>
+<text x="72.0" y="205.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">would get.</text>
+<circle cx="51" cy="229" r="11" fill="#E0922A"/>
+<text x="51.0" y="234.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="234.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Cut every word that does not change the meaning.</text>
+<circle cx="51" cy="258" r="11" fill="#E0922A"/>
+<text x="51.0" y="263.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="263.0" font-size="15" font-weight="400" fill="#1F2430" text-anchor="start">Test it: &quot;If someone hears only this, what will they do?&quot;</text>
+<line x1="40" y1="288" x2="600" y2="288" stroke="#D8D4CA"/>
+<text x="40.0" y="312.0" font-size="13" font-weight="400" fill="#5B6170" text-anchor="start">Inspired by Richard Branson, who says dyslexia helped him think big and</text>
+<text x="40.0" y="330.0" font-size="13" font-weight="400" fill="#5B6170" text-anchor="start">keep his messages simple</text>
+</svg>

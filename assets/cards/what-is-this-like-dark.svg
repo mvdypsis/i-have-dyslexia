@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 379" width="640" height="379" role="img" aria-label="What is this like?: Borrow the answer from another area of life. Steps: Ask: &quot;What else does this remind you of? It can be from any area of life.&quot; Take the connection seriously. Ask how that other thing is solved. Bring that solution back and test it on the real problem." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<rect width="640" height="379" rx="18" fill="#0D1117"/>
+<clipPath id="c"><rect width="640" height="100%" rx="18"/></clipPath>
+<rect x="0" y="0" width="10" height="100%" fill="#16A88E" clip-path="url(#c)"/>
+<text x="40.0" y="70.0" font-size="44" font-weight="400" fill="#E6EDF3" text-anchor="start">🔗</text>
+<text x="104.0" y="58.0" font-size="26" font-weight="700" fill="#E6EDF3" text-anchor="start">What is this like?</text>
+<text x="104.0" y="84.0" font-size="14" font-weight="700" fill="#16A88E" text-anchor="start">Connecting · Reasoning</text>
+<text x="40.0" y="124.0" font-size="18" font-weight="600" fill="#E6EDF3" text-anchor="start">Borrow the answer from another area of life.</text>
+<text x="40.0" y="160.0" font-size="12" font-weight="700" fill="#9DA7B3" text-anchor="start">HOW CLAUDE USES IT</text>
+<circle cx="51" cy="179" r="11" fill="#16A88E"/>
+<text x="51.0" y="184.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="72.0" y="184.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Ask: &quot;What else does this remind you of? It can be from any</text>
+<text x="72.0" y="205.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">area of life.&quot;</text>
+<circle cx="51" cy="229" r="11" fill="#16A88E"/>
+<text x="51.0" y="234.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="72.0" y="234.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Take the connection seriously. Ask how that other thing is</text>
+<text x="72.0" y="255.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">solved.</text>
+<circle cx="51" cy="279" r="11" fill="#16A88E"/>
+<text x="51.0" y="284.0" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="72.0" y="284.0" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="start">Bring that solution back and test it on the real problem.</text>
+<line x1="40" y1="309" x2="600" y2="309" stroke="#30363D"/>
+<text x="40.0" y="333.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">Shared by starter strategy, written for v0.1.0. Waiting for community</text>
+<text x="40.0" y="351.0" font-size="13" font-weight="400" fill="#9DA7B3" text-anchor="start">stories.</text>
+</svg>
