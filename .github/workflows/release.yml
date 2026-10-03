@@ -1,0 +1,22 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/check-readability.py
+      - name: Build the skill zip for claude.ai
+        run: cd skills && zip -r ../i-have-dyslexia.zip i-have-dyslexia
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: i-have-dyslexia.zip
+          generate_release_notes: true

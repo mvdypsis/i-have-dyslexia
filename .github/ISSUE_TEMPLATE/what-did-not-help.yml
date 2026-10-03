@@ -1,0 +1,38 @@
+name: It got in the way
+description: Claude did something that made it harder.
+labels: ["community-report", "did-not-help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Spelling does not matter here.
+        Please remove any private information.
+  - type: textarea
+    id: what
+    attributes:
+      label: What did Claude do?
+      placeholder: "It gave me a very long list."
+    validations:
+      required: true
+  - type: textarea
+    id: wanted
+    attributes:
+      label: What did you want instead?
+      placeholder: "Just the first thing to do."
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example (optional)
+      description: Paste what Claude wrote.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Reading Claude's answers
+        - Writing with Claude
+        - Pictures and diagrams
+        - Planning and steps
+        - Something else

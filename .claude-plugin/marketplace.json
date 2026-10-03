@@ -1,0 +1,22 @@
+{
+  "name": "i-have-dyslexia",
+  "description": "A Claude skill for dyslexic thinkers, built by the dyslexic community.",
+  "owner": {
+    "name": "Miguel Vicente",
+    "url": "https://github.com/mvdypsis"
+  },
+  "plugins": [
+    {
+      "name": "i-have-dyslexia",
+      "source": "./",
+      "description": "Teaches Claude to think like the best dyslexic thinkers, and to work with dyslexic people the way they say helps.",
+      "version": "0.1.0",
+      "category": "accessibility",
+      "tags": [
+        "dyslexia",
+        "accessibility",
+        "neurodiversity"
+      ]
+    }
+  ]
+}

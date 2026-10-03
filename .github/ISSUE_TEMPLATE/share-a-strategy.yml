@@ -1,0 +1,36 @@
+name: Share how you think
+description: A way of thinking or working that works for you. It can join the library.
+labels: ["strategy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. This is how Claude learns from dyslexic thinkers.
+        Spelling does not matter here. Write it the way you would say it.
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you do?
+      placeholder: "When I'm stuck I draw the problem as a map on paper, then I..."
+    validations:
+      required: true
+  - type: textarea
+    id: when
+    attributes:
+      label: When do you use it?
+      placeholder: "When a project has too many parts."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it work for you? (optional)
+  - type: textarea
+    id: example
+    attributes:
+      label: A real example (optional)
+  - type: input
+    id: credit
+    attributes:
+      label: How should we credit you? (optional)
+      placeholder: "Your name, your GitHub handle, or leave empty to stay anonymous"
