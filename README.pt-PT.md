@@ -113,7 +113,7 @@ Partilhados pelo fundador.
 
 - **A variante certa.** Português quer dizer Portugal, a não ser que digas Brasil.
 - **A tua voz fica.** Uma mensagem rápida continua rápida.
-- **Melhorar, se quiseres.** Pede, e o Claude mostra os teus 3 erros mais comuns. Nunca uma lista de tudo.
+- **Melhorar, se quiseres.** Pede, e o Claude mostra os teus 3 padrões mais comuns. Nunca uma lista de erros.
 
 ---
 
