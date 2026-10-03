@@ -2,6 +2,14 @@
 
 Each rule added from a community report links to that report and credits its author.
 
+## Unreleased
+
+- Use it at work: playbooks for product, engineering, design, and founders and leaders. Each maps 9 moments of the job to a strategy, in that job's words.
+- The website has a role filter, and the copied prompt says your role.
+- The generator fails if a playbook names a strategy that does not exist.
+- A stuck answer now ends with one question, and does not preview later steps.
+- Role tests: engineering, design and leadership 1.00 with the skill, 0.00 without. Product 0.00.
+
 ## 0.4.1 (2026-10-04)
 
 - The strategy map as a PNG, linked from both READMEs, for sharing where SVG does not work.

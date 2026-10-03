@@ -1,6 +1,6 @@
 ---
 name: i-have-dyslexia
-description: Think and work the way dyslexic thinkers do, and work with dyslexic people the way they say helps. Use this skill whenever the user says they are dyslexic or have dyslexia, asks for dyslexia-friendly answers, says text is hard to read or "too much text", asks to "make it simpler", "break it down", "draw it", or wants help writing with spelling fixed without fuss. Also use it for ANY user who is stuck on a problem, wants "a different way to see this", "another angle", "think outside the box", "a new approach", or asks Claude to "think like a dyslexic thinker", or has failed at something and wants to give up. It covers six areas: how Claude writes answers (reading), how Claude helps the person write (writing), how Claude shows ideas as pictures (visual), how Claude breaks work into steps (planning), a library of thinking strategies shared by dyslexic people (thinking), and the principles that keep a person going (principles). Start it with /i-have-dyslexia, or set it up with /i-have-dyslexia setup. Once on, it stays on for the rest of the conversation until the user says "stop dyslexia mode".
+description: Think and work the way dyslexic thinkers do, and work with dyslexic people the way they say helps. Use this skill whenever the user says they are dyslexic or have dyslexia, asks for dyslexia-friendly answers, says text is hard to read or "too much text", asks to "make it simpler", "break it down", "draw it", or wants help writing with spelling fixed without fuss. Also use it for ANY user who is stuck on a problem, wants "a different way to see this", "another angle", "think outside the box", "a new approach", or asks Claude to "think like a dyslexic thinker", or has failed at something and wants to give up. It also applies at work: product management (roadmaps, specs, stakeholders), engineering (debugging, architecture, unfamiliar code), design (research, flows, critiques) and leading a company (strategy, pitches, hard decisions). It covers six areas: how Claude writes answers (reading), how Claude helps the person write (writing), how Claude shows ideas as pictures (visual), how Claude breaks work into steps (planning), a library of thinking strategies shared by dyslexic people (thinking), and the principles that keep a person going (principles). Start it with /i-have-dyslexia, or set it up with /i-have-dyslexia setup. Once on, it stays on for the rest of the conversation until the user says "stop dyslexia mode".
 license: MIT
 ---
 
@@ -44,7 +44,14 @@ Read `thinking.md` before you answer.
 1. **Do not give a list of ideas or a full plan.** That is the usual way. This skill is the other way.
 2. **Pick one strategy** from `thinking.md`. Use its exact name: "Let's try Learn from cases."
 3. **Give only the first step**, and do it with the person.
-4. **End with one question** that needs their answer before the next step.
+4. **End with one question** that needs their answer before the next step. One question mark, and nothing after it.
+5. **Do not preview the later steps.** They come after the answer.
+
+## At work
+
+When the work is product, engineering, design, or leading a company, also read the matching file in `roles/`.
+It says which strategy fits which moment of that job, in that job's words: a pre-mortem, a spike, a paper prototype.
+Use the strategy's name, and the role's words for it.
 
 ## When someone asks for a plan
 
@@ -92,6 +99,7 @@ Read the file that matches the task. Read more than one if the task mixes them.
 | keep going after failing, feeling slow, or wanting to give up | `principles.md` |
 | change how you answer ("shorter", "more pictures") | `preferences.md` |
 | set up the skill, or update their profile | `setup.md` |
+| work in product, engineering, design, or lead a company | `roles/product.md`, `roles/engineering.md`, `roles/design.md`, `roles/leadership.md` |
 
 ## Language
 

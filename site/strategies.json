@@ -716,5 +716,215 @@
       "sources": [],
       "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/what-is-this-like.md"
     }
+  ],
+  "roles": [
+    {
+      "slug": "product",
+      "role": "Product",
+      "emoji": "🧭",
+      "rows": [
+        {
+          "moment": "Too many requests, no clear priority",
+          "strategy": "big-picture-first",
+          "example": "Write the product goal in one line, then place every request under it"
+        },
+        {
+          "moment": "Planning a launch",
+          "strategy": "run-the-movie-forward",
+          "example": "A pre-mortem: it's launch day plus one month, and it went wrong. What happened?"
+        },
+        {
+          "moment": "Writing a spec",
+          "strategy": "start-from-the-end",
+          "example": "Write the announcement customers will read, then work back to the spec"
+        },
+        {
+          "moment": "Stakeholders pulling in different directions",
+          "strategy": "draw-it-as-a-map",
+          "example": "Map who wants what from whom, and find the knot"
+        },
+        {
+          "moment": "Customers don't use a feature",
+          "strategy": "go-and-look",
+          "example": "Watch three customers try it, before reading another dashboard"
+        },
+        {
+          "moment": "A gut feeling about the market",
+          "strategy": "jump-to-the-answer-then-check",
+          "example": "Write the hypothesis, then the cheapest test that could prove it wrong"
+        },
+        {
+          "moment": "Pitching a feature to the team",
+          "strategy": "explain-it-with-a-movie",
+          "example": "Explain the problem through a scene everyone knows"
+        },
+        {
+          "moment": "Feature names nobody remembers",
+          "strategy": "name-it-dont-number-it",
+          "example": "Replace \"Epic 4.2\" with a name people can picture"
+        },
+        {
+          "moment": "Too many research notes",
+          "strategy": "learn-from-cases",
+          "example": "Keep three real customer stories, not forty quotes"
+        }
+      ]
+    },
+    {
+      "slug": "engineering",
+      "role": "Engineering",
+      "emoji": "🛠️",
+      "rows": [
+        {
+          "moment": "A bug you can't find",
+          "strategy": "jump-to-the-answer-then-check",
+          "example": "Name your strongest guess, then the one log line that would prove it"
+        },
+        {
+          "moment": "A new codebase",
+          "strategy": "draw-it-as-a-map",
+          "example": "Map the main modules and the calls between them before reading files"
+        },
+        {
+          "moment": "Designing a change",
+          "strategy": "run-the-movie-forward",
+          "example": "Trace a request through the system after your change, step by step"
+        },
+        {
+          "moment": "Choosing between two designs",
+          "strategy": "build-a-model",
+          "example": "Spike both for an hour, and compare what you learned"
+        },
+        {
+          "moment": "Stuck for an hour",
+          "strategy": "talk-it-out",
+          "example": "Explain the problem out loud, line by line, before reading more"
+        },
+        {
+          "moment": "A ticket that makes no sense",
+          "strategy": "go-and-look",
+          "example": "Reproduce it yourself, or ask the person who saw it"
+        },
+        {
+          "moment": "Unknown code or a term",
+          "strategy": "use-the-context",
+          "example": "Read the callers and the tests around it before the code itself"
+        },
+        {
+          "moment": "A long design doc to review",
+          "strategy": "read-with-your-ears",
+          "example": "Listen to it once, then read only the parts that matter"
+        },
+        {
+          "moment": "A system nobody can explain",
+          "strategy": "tell-it-as-a-story",
+          "example": "Follow one user request from the click to the database and back"
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "role": "Design",
+      "emoji": "🎨",
+      "rows": [
+        {
+          "moment": "A long brief or research report",
+          "strategy": "picture-what-you-read",
+          "example": "Turn each finding into one image or sketch"
+        },
+        {
+          "moment": "Understanding users",
+          "strategy": "learn-by-changing-roles",
+          "example": "Be the user for ten minutes, on a busy day"
+        },
+        {
+          "moment": "A flow that feels wrong",
+          "strategy": "run-the-movie-forward",
+          "example": "Walk through the flow as the user, screen by screen"
+        },
+        {
+          "moment": "Starting a new concept",
+          "strategy": "build-a-model",
+          "example": "Paper prototype first, before any pixels"
+        },
+        {
+          "moment": "Too many directions",
+          "strategy": "find-another-path",
+          "example": "Sketch three directions, at least one of them strange"
+        },
+        {
+          "moment": "Presenting to stakeholders",
+          "strategy": "explain-it-with-a-movie",
+          "example": "Show the experience as a scene from a user's day"
+        },
+        {
+          "moment": "Research with too many notes",
+          "strategy": "learn-from-cases",
+          "example": "Pick three users whose stories show the pattern"
+        },
+        {
+          "moment": "Explaining a design decision",
+          "strategy": "tell-it-as-a-story",
+          "example": "Who is the user, what stops them, what changes now"
+        },
+        {
+          "moment": "A new problem space",
+          "strategy": "what-is-this-like",
+          "example": "Borrow a pattern from a product in another field"
+        }
+      ]
+    },
+    {
+      "slug": "leadership",
+      "role": "Founders and leaders",
+      "emoji": "🚀",
+      "rows": [
+        {
+          "moment": "Setting a strategy",
+          "strategy": "big-picture-first",
+          "example": "One sentence on where the company must be in a year"
+        },
+        {
+          "moment": "A pitch or an all-hands",
+          "strategy": "keep-the-message-simple",
+          "example": "The whole idea in one sentence a 12-year-old would get"
+        },
+        {
+          "moment": "Doing too much yourself",
+          "strategy": "build-a-team-around-your-gaps",
+          "example": "List what drains you, and who could own each part"
+        },
+        {
+          "moment": "A hard decision",
+          "strategy": "run-the-movie-forward",
+          "example": "Play each option six months ahead, and watch where it breaks"
+        },
+        {
+          "moment": "A big goal and no plan",
+          "strategy": "start-from-the-end",
+          "example": "Picture the goal reached, then walk back to this month"
+        },
+        {
+          "moment": "Losing touch with customers",
+          "strategy": "go-and-look",
+          "example": "Spend a morning where your product is used"
+        },
+        {
+          "moment": "Explaining a change to the team",
+          "strategy": "tell-it-as-a-story",
+          "example": "Who is affected, what changes for them, what stays the same"
+        },
+        {
+          "moment": "Saying what you need from your team",
+          "strategy": "name-what-you-need",
+          "example": "One clear sentence, early, without apology"
+        },
+        {
+          "moment": "A setback",
+          "strategy": "find-another-path",
+          "example": "Three other ways to the same goal, one of them unusual"
+        }
+      ]
+    }
   ]
 }

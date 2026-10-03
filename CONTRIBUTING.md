@@ -42,6 +42,13 @@ You can also suggest a strategy inspired by a book, or by a dyslexic person who 
 - The link must load, and must say what the strategy claims.
 - No myths: only people whose dyslexia is confirmed in a public source.
 
+## A playbook for your job
+
+The playbooks in `skills/i-have-dyslexia/roles/` map moments of a job to strategies.
+To add a row, or a new role, keep the table shape: Moment, Strategy, In this role.
+
+The strategy must be one that exists, by its exact name. `tools/build-visuals.py` checks this, and the website picks the new rows up by itself.
+
 ## Changing the skill yourself
 
 If you want to edit the files:

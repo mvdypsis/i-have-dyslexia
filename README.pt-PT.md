@@ -86,6 +86,22 @@ Cada fonte está ligada e foi verificada.
 
 ---
 
+## No trabalho
+
+As mesmas estratégias, nas palavras da tua profissão.
+O Claude lê o guia do teu papel e fala a língua dele.
+
+| Papel | Por exemplo |
+|---|---|
+| 🧭 **[Produto](skills/i-have-dyslexia/roles/product.md)** | A planear um lançamento? Run the movie forward: um pre-mortem. |
+| 🛠️ **[Engenharia](skills/i-have-dyslexia/roles/engineering.md)** | Um bug que não encontras? Jump to the answer, then check: o teu palpite mais forte, e a linha de log que o prova. |
+| 🎨 **[Design](skills/i-have-dyslexia/roles/design.md)** | Um fluxo que não está bem? Run the movie forward: percorre-o como o utilizador, ecrã a ecrã. |
+| 🚀 **[Fundadores e líderes](skills/i-have-dyslexia/roles/leadership.md)** | Uma decisão difícil? Run the movie forward: imagina cada opção daqui a seis meses. |
+
+No [site](https://mvdypsis.github.io/i-have-dyslexia/#role-product), escolhe o teu papel para ver cada momento e a estratégia certa.
+
+---
+
 ## Partilha como pensas
 
 Uma skill não treina o Claude. É um conjunto de instruções que o Claude lê e segue.

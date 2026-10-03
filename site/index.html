@@ -70,6 +70,14 @@ button.btn, a.btn {
 .btn.primary { background: var(--accent); color: var(--on-accent); border: 2px solid var(--accent); }
 .btn.ghost { background: transparent; color: var(--fg); border: 2px solid var(--line); }
 .principle { font-size: 1.1rem; font-weight: 600; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip {
+  font: inherit; font-weight: 600; color: inherit; background: var(--panel); cursor: pointer;
+  border: 2px solid var(--line); border-radius: 999px; padding: 8px 16px;
+}
+.chip[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
+.moment-line { font-weight: 700; margin: 24px 0 8px; }
+.in-role { margin: 8px 0; padding: 10px 12px; border-radius: 10px; background: var(--bg); }
 details.all summary { cursor: pointer; font-weight: 600; }
 .cta { text-align: center; background: var(--panel); border-radius: 16px; padding: 24px 16px; margin-top: 48px; }
 footer { color: var(--muted); font-size: 0.8rem; text-align: center; margin-top: 40px; }
@@ -84,6 +92,12 @@ footer a { color: inherit; }
     <h1>Find your strategy</h1>
     <p class="lead">Ways of thinking shared by dyslexic people. Pick what's happening. Get a strategy, and a prompt to use it with Claude.</p>
   </header>
+
+  <section aria-labelledby="q0">
+    <h2 id="q0">Use it at work</h2>
+    <div class="chips" id="roles" role="group" aria-label="Pick your work"></div>
+    <div id="role-result" aria-live="polite"></div>
+  </section>
 
   <section aria-labelledby="q1">
     <h2 id="q1">What's happening?</h2>
@@ -132,11 +146,12 @@ const PRINCIPLES = [
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 let DATA = { skills: {}, strategies: [] };
 
-function promptFor(s) {
-  return `Use the i-have-dyslexia skill. Let's try "${s.name}" on this: `;
+function promptFor(s, role) {
+  const work = role ? ` I work in ${role.toLowerCase()}.` : "";
+  return `Use the i-have-dyslexia skill.${work} Let's try "${s.name}" on this: `;
 }
 
-function cardHTML(s) {
+function cardHTML(s, role) {
   const sources = s.sources.length
     ? ` · Sources: ${s.sources.map(l => `<a href="${esc(l.url)}">${esc(l.text)}</a>`).join(", ")}` : "";
   const credit = s.inspired_by ? `Inspired by ${esc(s.inspired_by)}${sources}` : `Shared by ${esc(s.shared_by)}`;
@@ -145,9 +160,9 @@ function cardHTML(s) {
     <div class="skill">${s.skills.map(esc).join(" · ")}</div>
     <p class="summary">${esc(s.summary)}</p>
     <ol>${s.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol>
-    <div class="prompt"><span class="sr">Prompt: </span>${esc(promptFor(s))}<span style="color:var(--muted)">[describe your situation]</span></div>
+    <div class="prompt"><span class="sr">Prompt: </span>${esc(promptFor(s, role))}<span style="color:var(--muted)">[describe your situation]</span></div>
     <div class="row">
-      <button class="btn primary" data-copy="${esc(promptFor(s))}">Copy prompt</button>
+      <button class="btn primary" data-copy="${esc(promptFor(s, role))}">Copy prompt</button>
       <a class="btn ghost" href="${esc(s.url)}">Read more</a>
     </div>
     <div class="credit">${credit}</div>
@@ -175,6 +190,21 @@ function show(id) {
   out.querySelector("h2").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function showRole(slug) {
+  document.querySelectorAll(".chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.role === slug)));
+  const out = document.getElementById("role-result");
+  const role = DATA.roles.find(r => r.slug === slug);
+  if (!role) { out.innerHTML = ""; return; }
+  if (location.hash !== "#role-" + slug) history.replaceState(null, "", "#role-" + slug);
+  const bySlug = Object.fromEntries(DATA.strategies.map(s => [s.slug, s]));
+  out.innerHTML = role.rows.map(r => {
+    const s = bySlug[r.strategy];
+    const card = cardHTML(s, role.role).replace('<p class="summary">',
+      `<p class="in-role"><b>In ${esc(role.role.toLowerCase())}:</b> ${esc(r.example)}</p><p class="summary">`);
+    return `<p class="moment-line">${esc(r.moment)}</p>` + card;
+  }).join("");
+}
+
 document.addEventListener("click", async e => {
   const b = e.target.closest("[data-copy]");
   if (!b) return;
@@ -194,8 +224,15 @@ fetch("strategies.json").then(r => r.json()).then(d => {
   DATA = d;
   document.getElementById("count").textContent = d.strategies.length;
   document.getElementById("all").innerHTML = d.strategies.map(cardHTML).join("");
+  document.getElementById("roles").innerHTML = d.roles.map(r =>
+    `<button class="chip" data-role="${esc(r.slug)}" aria-pressed="false">${esc(r.emoji)} ${esc(r.role)}</button>`).join("");
+  document.getElementById("roles").addEventListener("click", e => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    showRole(b.getAttribute("aria-pressed") === "true" ? "" : b.dataset.role);
+  });
   const start = location.hash.slice(1);
   if (MOMENTS.some(m => m.id === start)) show(start);
+  if (start.startsWith("role-")) showRole(start.slice(5));
 }).catch(() => {
   document.getElementById("result").innerHTML = "<p>Could not load the strategies. Try reloading the page.</p>";
 });

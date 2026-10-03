@@ -102,6 +102,32 @@ def read_strategy(path):
     }
 
 
+ROLES = ROOT / "skills" / "i-have-dyslexia" / "roles"
+
+
+def load_roles(items):
+    """Read each role playbook's table: moment, strategy, what it looks like there."""
+    by_name = {i["name"].lower(): i["slug"] for i in items}
+    roles = []
+    order = ["product", "engineering", "design", "leadership"]
+    for path in sorted(ROLES.glob("*.md"), key=lambda p: (order.index(p.stem) if p.stem in order else 99, p.stem)):
+        raw = path.read_text(encoding="utf-8")
+        front = dict(re.findall(r'^(\w+):\s*"?(.*?)"?$', raw.split("\n---", 1)[0], re.M))
+        table = raw.split("## Moments and strategies", 1)[-1].split("\n## ", 1)[0]
+        rows = []
+        for line in table.splitlines():
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if len(cells) != 3 or cells[0] in ("Moment", "") or set(cells[0]) <= set("-"):
+                continue
+            slug = by_name.get(cells[1].lower())
+            if not slug:
+                sys.exit(f"roles/{path.name}: no strategy called {cells[1]!r}")
+            rows.append({"moment": cells[0], "strategy": slug, "example": cells[2]})
+        roles.append({"slug": path.stem, "role": front.get("role", path.stem),
+                      "emoji": front.get("emoji", ""), "rows": rows})
+    return roles
+
+
 def load():
     items = [read_strategy(p) for p in sorted(STRATEGIES.glob("*.md")) if not p.name.startswith("_")]
     if not items:
@@ -280,7 +306,7 @@ def outputs(items):
     if "<!-- cards:start" in README.read_text(encoding="utf-8"):
         files[README] = fill(README, "cards", readme_cards(items))
     files[SITE / "strategies.json"] = json.dumps(
-        {"skills": SKILLS, "strategies": items}, ensure_ascii=False, indent=2) + "\n"
+        {"skills": SKILLS, "strategies": items, "roles": load_roles(items)}, ensure_ascii=False, indent=2) + "\n"
     return files
 
 

@@ -120,6 +120,22 @@ Every source is linked and checked.
 
 ---
 
+## Use it at work
+
+The same strategies, in the words of your job.
+Claude reads the playbook for your role and speaks its language.
+
+| Role | For example |
+|---|---|
+| 🧭 **[Product](skills/i-have-dyslexia/roles/product.md)** | Planning a launch? Run the movie forward: a pre-mortem. |
+| 🛠️ **[Engineering](skills/i-have-dyslexia/roles/engineering.md)** | A bug you can't find? Jump to the answer, then check: your strongest guess, and the one log line that proves it. |
+| 🎨 **[Design](skills/i-have-dyslexia/roles/design.md)** | A flow that feels wrong? Run the movie forward: walk it as the user, screen by screen. |
+| 🚀 **[Founders and leaders](skills/i-have-dyslexia/roles/leadership.md)** | A hard decision? Run the movie forward: play each option six months ahead. |
+
+On the [website](https://mvdypsis.github.io/i-have-dyslexia/#role-product), pick your role to see every moment and its strategy.
+
+---
+
 ## Share how you think
 
 A skill does not retrain Claude. It is a set of instructions Claude reads and follows.
@@ -261,9 +277,15 @@ These are the real results for v0.4.0, failures included.
 | Answer short when there is "too much text" | 1.00 | 1.00 |
 | Setup asks one question at a time | **1.00** | 0.00 |
 | Offers to draft a strategy that worked | **0.50** | 0.00 |
+| Engineering: a bug you can't find | **1.00** | 0.00 |
+| Design: users drop off in a flow | **1.00** | 0.00 |
+| Founders: a hard decision | **1.00** | 0.00 |
+| Product: a roadmap with 30 requests | 0.00 | 0.00 |
 
 The skill switched on every time it should.
-Planning moves between runs, and the comparison picture is not always small enough. Help is welcome.
+
+Planning moves between runs, and the comparison picture is not always small enough.
+The product test fails on detail: Claude picks the right strategy, then asks two questions instead of one. Help is welcome.
 
 The test cases are in [`evals/`](evals/). The skill's own text is checked by [`tools/check-readability.py`](tools/check-readability.py), because a skill about clear writing must follow its own rules.
 
