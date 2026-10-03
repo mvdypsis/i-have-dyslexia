@@ -1,56 +1,158 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" role="img" aria-label="Demo: someone says they are stuck on a project. Claude answers: let's try Draw it as a map. A map draws itself with the project in the middle and four branches: money, team, deadline, customers. The deadline is circled as the knot, and Claude suggests one first step." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" role="img" aria-label="Demo of a working day with i-have-dyslexia. An engineer stuck on failing tests gets Jump to the answer, then check. A product manager's 60-message thread becomes one answer and one action. A founder cutting costs draws a map, names the knot, and gets one first step. End card: 25 ways dyslexic people think, for anyone who gets stuck." font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
 <style>
-  .bg { fill: #FFFDF8; } .fg { fill: #1F2430; } .muted { fill: #5B6170; } .panel { fill: #F4F1EA; }
-  .line { stroke: #7C6CF2; }
+  .bg { fill: #FFFDF8; } .fg { fill: #1F2430; } .muted { fill: #5B6170; } .panel { fill: #F1EDE4; }
+  .muted-fill { fill: #D8D4CA; }
   @media (prefers-color-scheme: dark) {
     .bg { fill: #0D1117; } .fg { fill: #E6EDF3; } .muted { fill: #9DA7B3; } .panel { fill: #161B22; }
+    .muted-fill { fill: #30363D; }
   }
 </style>
 <rect class="bg" width="800" height="460" rx="18"/>
-
-<!-- the chat, on the left -->
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.03;0.06;0.94;1"/>
-  <rect class="panel" x="24" y="28" width="300" height="62" rx="14"/>
-  <text class="fg" x="40" y="54" font-size="15">I'm stuck on my project and</text>
-  <text class="fg" x="40" y="76" font-size="15">I don't even know why.</text>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.0;0.014;0.282;0.296;1.0"/>
+<rect x="24" y="22" width="375" height="34" rx="17" fill="none" stroke="#2F8FE0" stroke-width="2.5"/>
+<text x="40" y="45" font-size="15" font-weight="700" text-anchor="start" class="fg">🛠️ Engineer · 16:00 · two hours on one bug</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.12;0.16;0.94;1"/>
-  <rect x="24" y="104" width="300" height="62" rx="14" fill="#7C6CF2"/>
-  <text x="40" y="130" font-size="15" fill="#FFFFFF">Let's try 🗺️ Draw it as a map.</text>
-  <text x="40" y="152" font-size="15" fill="#FFFFFF">What's the project, in a few words?</text>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.016;0.03;0.282;0.296;1.0"/>
+<rect x="24" y="76" width="330" height="64" rx="14" class="panel"/>
+<text x="40" y="102" font-size="15" font-weight="400" text-anchor="start" class="fg">Tests pass on my laptop,</text>
+<text x="40" y="124" font-size="15" font-weight="400" text-anchor="start" class="fg">but fail in CI. I&#x27;m stuck.</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.22;0.26;0.94;1"/>
-  <rect class="panel" x="24" y="180" width="300" height="40" rx="14"/>
-  <text class="fg" x="40" y="206" font-size="15">Launching the new website.</text>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.064;0.078;0.282;0.296;1.0"/>
+<rect x="24" y="156" width="330" height="86" rx="14" fill="#7C6CF2"/>
+<text x="40" y="182" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">Let&#x27;s try 🦘 Jump to the answer,</text>
+<text x="40" y="204" font-size="15" font-weight="700" text-anchor="start" fill="#FFFFFF">then check.</text>
+<text x="40" y="226" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">What&#x27;s your gut guess?</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.66;0.7;0.94;1"/>
-  <rect x="24" y="300" width="300" height="84" rx="14" fill="#7C6CF2"/>
-  <text x="40" y="326" font-size="15" fill="#FFFFFF">The knot is the deadline. It</text>
-  <text x="40" y="348" font-size="15" fill="#FFFFFF">pulls on the team and the money.</text>
-  <text x="40" y="370" font-size="15" fill="#FFFFFF" font-weight="700">▶ Start here: move the date?</text>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.112;0.126;0.282;0.296;1.0"/>
+<rect x="470" y="90" width="250" height="48" rx="24" class="panel"/>
+<text x="595" y="120" font-size="17" font-weight="600" text-anchor="middle" class="fg">🌍 Environment</text>
 </g>
-
-<!-- the map, on the right -->
-<g fill="none" stroke-width="4" stroke-linecap="round">
-  <path class="line" stroke-dasharray="200" stroke-dashoffset="200" d="M560 230 C 520 190, 500 150, 470 120"><animate attributeName="stroke-dashoffset" dur="12s" repeatCount="indefinite" values="200;200;0;0;200" keyTimes="0;0.32;0.37;0.94;1"/></path>
-  <path class="line" stroke-dasharray="200" stroke-dashoffset="200" d="M560 230 C 610 190, 640 150, 680 120"><animate attributeName="stroke-dashoffset" dur="12s" repeatCount="indefinite" values="200;200;0;0;200" keyTimes="0;0.4;0.45;0.94;1"/></path>
-  <path class="line" stroke-dasharray="200" stroke-dashoffset="200" d="M560 230 C 520 280, 500 320, 470 350"><animate attributeName="stroke-dashoffset" dur="12s" repeatCount="indefinite" values="200;200;0;0;200" keyTimes="0;0.48;0.53;0.94;1"/></path>
-  <path class="line" stroke-dasharray="200" stroke-dashoffset="200" d="M560 230 C 610 280, 640 320, 690 350"><animate attributeName="stroke-dashoffset" dur="12s" repeatCount="indefinite" values="200;200;0;0;200" keyTimes="0;0.56;0.61;0.94;1"/></path>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.132;0.146;0.282;0.296;1.0"/>
+<rect x="470" y="180" width="250" height="48" rx="24" class="panel"/>
+<text x="595" y="210" font-size="17" font-weight="600" text-anchor="middle" class="fg">⏱️ Timing</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.22;0.26;0.94;1"/>
-  <circle cx="560" cy="230" r="52" fill="#7C6CF2"/>
-  <text x="560" y="226" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">New</text>
-  <text x="560" y="244" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">website</text>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.152;0.166;0.282;0.296;1.0"/>
+<rect x="470" y="270" width="250" height="48" rx="24" class="panel"/>
+<text x="595" y="300" font-size="17" font-weight="600" text-anchor="middle" class="fg">🔀 Test order</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.32;0.35;0.94;1"/><circle cx="470" cy="120" r="9" fill="#16A88E"/><text class="fg" x="470" y="98" font-size="15" font-weight="600" text-anchor="middle">💶 Money</text></g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.4;0.43;0.94;1"/><circle cx="680" cy="120" r="9" fill="#16A88E"/><text class="fg" x="680" y="98" font-size="15" font-weight="600" text-anchor="middle">👥 Team</text></g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.48;0.51;0.94;1"/><circle cx="470" cy="350" r="9" fill="#E0922A"/><text class="fg" x="432" y="355" font-size="15" font-weight="600" text-anchor="end">⏰ Deadline</text></g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.56;0.59;0.94;1"/><circle cx="690" cy="350" r="9" fill="#16A88E"/><text class="fg" x="690" y="384" font-size="15" font-weight="600" text-anchor="middle">🛒 Customers</text></g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.66;0.7;0.94;1"/>
-  <circle cx="470" cy="350" r="26" fill="none" stroke="#E0922A" stroke-width="3.5"/>
-  <text x="470" y="398" font-size="14" font-weight="700" fill="#E0922A" text-anchor="middle">the knot</text>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.176;0.19;0.282;0.296;1.0"/>
+<rect x="24" y="256" width="330" height="42" rx="14" class="panel"/>
+<text x="40" y="282" font-size="15" font-weight="400" text-anchor="start" class="fg">Timing, I think.</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.76;0.8;0.94;1"/>
-  <text class="muted" x="400" y="446" font-size="13" text-anchor="middle">i-have-dyslexia · strategy shared by Miguel Vicente</text>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.192;0.206;0.282;0.296;1.0"/>
+<rect x="466" y="176" width="258" height="56" rx="28" fill="none" stroke="#2F8FE0" stroke-width="4"/>
+<text x="595" y="360" font-size="15" font-weight="700" text-anchor="middle" fill="#2F8FE0">One guess. One check.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.216;0.23;0.282;0.296;1.0"/>
+<rect x="24" y="314" width="330" height="64" rx="14" fill="#7C6CF2"/>
+<text x="40" y="340" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">Run CI 3 times. If different tests</text>
+<text x="40" y="362" font-size="15" font-weight="700" text-anchor="start" fill="#FFFFFF">fail each time, it&#x27;s timing.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.296;0.31;0.538;0.552;1.0"/>
+<rect x="24" y="22" width="427" height="34" rx="17" fill="none" stroke="#16A88E" stroke-width="2.5"/>
+<text x="40" y="45" font-size="15" font-weight="700" text-anchor="start" class="fg">🧭 Product manager · 9:50 · standup in 10 minutes</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.312;0.326;0.538;0.552;1.0"/>
+<rect x="24" y="76" width="330" height="64" rx="14" class="panel"/>
+<text x="40" y="102" font-size="15" font-weight="400" text-anchor="start" class="fg">Summarise this 60-message</text>
+<text x="40" y="124" font-size="15" font-weight="400" text-anchor="start" class="fg">Slack thread for me.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.332;0.346;0.418;0.432;1.0"/>
+<rect x="440" y="82" width="300" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="97" width="263" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="112" width="226" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="127" width="189" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="142" width="272" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="157" width="235" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="172" width="198" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="187" width="281" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="202" width="244" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="217" width="207" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="232" width="290" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="247" width="253" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="262" width="216" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="277" width="299" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="292" width="262" height="7" rx="3.5" class="muted-fill"/>
+<rect x="440" y="307" width="225" height="7" rx="3.5" class="muted-fill"/>
+<text x="590" y="344" font-size="14" font-weight="400" text-anchor="middle" class="muted">60 messages</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.432;0.446;0.538;0.552;1.0"/>
+<rect x="420" y="84" width="350" height="236" rx="16" class="panel"/>
+<text x="440" y="120" font-size="16" font-weight="700" text-anchor="start" class="fg">Checkout fails for 2% of cards.</text>
+<text x="440" y="144" font-size="16" font-weight="700" text-anchor="start" class="fg">A fix ships on Thursday.</text>
+<text x="440" y="184" font-size="15" font-weight="400" text-anchor="start" class="fg">• Cause: the new provider times out.</text>
+<text x="440" y="210" font-size="15" font-weight="400" text-anchor="start" class="fg">• Ana fixes it. Rui changes the message.</text>
+<rect x="440" y="236" width="310" height="56" rx="12" fill="#16A88E"/>
+<text x="456" y="260" font-size="15" font-weight="700" text-anchor="start" fill="#FFFFFF">For you:</text>
+<text x="456" y="282" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">offer PayPal until Thursday.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.448;0.462;0.538;0.552;1.0"/>
+<rect x="24" y="156" width="330" height="86" rx="14" fill="#7C6CF2"/>
+<text x="40" y="182" font-size="15" font-weight="700" text-anchor="start" fill="#FFFFFF">The answer first.</text>
+<text x="40" y="204" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">Then who does what,</text>
+<text x="40" y="226" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">and what&#x27;s for you.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.552;0.566;0.858;0.872;1.0"/>
+<rect x="24" y="22" width="289" height="34" rx="17" fill="none" stroke="#E0922A" stroke-width="2.5"/>
+<text x="40" y="45" font-size="15" font-weight="700" text-anchor="start" class="fg">🚀 Founder · cutting 20% of costs</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.568;0.582;0.858;0.872;1.0"/>
+<rect x="24" y="76" width="330" height="64" rx="14" class="panel"/>
+<text x="40" y="102" font-size="15" font-weight="400" text-anchor="start" class="fg">Every option feels terrible.</text>
+<text x="40" y="124" font-size="15" font-weight="400" text-anchor="start" class="fg">I&#x27;m going in circles.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.616;0.63;0.858;0.872;1.0"/>
+<rect x="24" y="156" width="330" height="64" rx="14" fill="#7C6CF2"/>
+<text x="40" y="182" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">Let&#x27;s try 🗺️ Draw it as a map.</text>
+<text x="40" y="204" font-size="15" font-weight="400" text-anchor="start" fill="#FFFFFF">What connects to the cut?</text>
+</g>
+<path d="M590 205 Q530.0 205 470 105" fill="none" stroke="#7C6CF2" stroke-width="4" stroke-linecap="round" stroke-dasharray="240" stroke-dashoffset="240"><animate attributeName="stroke-dashoffset" dur="25s" repeatCount="indefinite" values="240;240;0;0;240;240" keyTimes="0.0;0.656;0.68;0.858;0.872;1.0"/></path>
+<path d="M590 205 Q651.0 205 712 105" fill="none" stroke="#7C6CF2" stroke-width="4" stroke-linecap="round" stroke-dasharray="240" stroke-dashoffset="240"><animate attributeName="stroke-dashoffset" dur="25s" repeatCount="indefinite" values="240;240;0;0;240;240" keyTimes="0.0;0.676;0.7;0.858;0.872;1.0"/></path>
+<path d="M590 205 Q530.0 205 470 310" fill="none" stroke="#7C6CF2" stroke-width="4" stroke-linecap="round" stroke-dasharray="240" stroke-dashoffset="240"><animate attributeName="stroke-dashoffset" dur="25s" repeatCount="indefinite" values="240;240;0;0;240;240" keyTimes="0.0;0.696;0.72;0.858;0.872;1.0"/></path>
+<path d="M590 205 Q651.0 205 712 310" fill="none" stroke="#7C6CF2" stroke-width="4" stroke-linecap="round" stroke-dasharray="240" stroke-dashoffset="240"><animate attributeName="stroke-dashoffset" dur="25s" repeatCount="indefinite" values="240;240;0;0;240;240" keyTimes="0.0;0.716;0.74;0.858;0.872;1.0"/></path>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.648;0.662;0.858;0.872;1.0"/>
+<circle cx="590" cy="205" r="44" fill="#7C6CF2"/>
+<text x="590" y="203" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF">Cut</text>
+<text x="590" y="222" font-size="15" font-weight="700" text-anchor="middle" fill="#FFFFFF">20%</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.672;0.686;0.858;0.872;1.0"/>
+<circle cx="470" cy="105" r="9" fill="#16A88E"/>
+<text x="470" y="65" font-size="15" font-weight="600" text-anchor="middle" class="fg">👥 People</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.692;0.706;0.858;0.872;1.0"/>
+<circle cx="712" cy="105" r="9" fill="#16A88E"/>
+<text x="712" y="65" font-size="15" font-weight="600" text-anchor="middle" class="fg">🧰 Tools</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.712;0.726;0.858;0.872;1.0"/>
+<circle cx="470" cy="310" r="9" fill="#16A88E"/>
+<text x="470" y="342" font-size="15" font-weight="600" text-anchor="middle" class="fg">🏢 Office</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.732;0.746;0.858;0.872;1.0"/>
+<circle cx="712" cy="310" r="9" fill="#16A88E"/>
+<text x="712" y="342" font-size="15" font-weight="600" text-anchor="middle" class="fg">📣 Marketing</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.744;0.758;0.858;0.872;1.0"/>
+<rect x="24" y="236" width="330" height="64" rx="14" class="panel"/>
+<text x="40" y="262" font-size="15" font-weight="400" text-anchor="start" class="fg">Tools. Nobody knows</text>
+<text x="40" y="284" font-size="15" font-weight="400" text-anchor="start" class="fg">what we pay for.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.768;0.782;0.858;0.872;1.0"/>
+<circle cx="712" cy="105" r="26" fill="none" stroke="#E0922A" stroke-width="3.5"/>
+<text x="678" y="98" font-size="14" font-weight="700" text-anchor="end" fill="#E0922A">the knot</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.792;0.806;0.858;0.872;1.0"/>
+<rect x="24" y="316" width="330" height="64" rx="14" fill="#7C6CF2"/>
+<text x="40" y="342" font-size="15" font-weight="700" text-anchor="start" fill="#FFFFFF">▶ Start here: list every tool</text>
+<text x="40" y="364" font-size="15" font-weight="700" text-anchor="start" fill="#FFFFFF">you pay for. 15 minutes.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="25s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0.0;0.872;0.886;0.986;1.0;1.0"/>
+<circle cx="400" cy="120" r="34" fill="#7C6CF2"/>
+<text x="400" y="132" font-size="34" font-weight="700" text-anchor="middle" fill="#FFFFFF">i</text>
+<text x="400" y="210" font-size="26" font-weight="700" text-anchor="middle" class="fg">25 ways dyslexic people think,</text>
+<text x="400" y="244" font-size="26" font-weight="700" text-anchor="middle" class="fg">for anyone who gets stuck.</text>
+<text x="400" y="292" font-size="17" font-weight="400" text-anchor="middle" class="muted">Product · Engineering · Design · Founders</text>
+<rect x="270" y="320" width="260" height="46" rx="12" class="panel"/>
+<text x="400" y="350" font-size="17" font-weight="700" text-anchor="middle" class="fg">/i-have-dyslexia setup</text>
+<text x="400" y="410" font-size="15" font-weight="400" text-anchor="middle" class="muted">No dyslexia needed.</text>
 </g>
 </svg>

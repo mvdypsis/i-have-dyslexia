@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/demo.gif" alt="Demonstração: alguém está bloqueado num projeto. O Claude propõe desenhar um mapa e encontra o nó: o prazo." width="720">
+  <img src="assets/demo.gif" alt="Demonstração de um dia de trabalho: um engenheiro bloqueado no CI recebe um palpite e uma verificação, uma conversa de 60 mensagens vira uma resposta, e um fundador a cortar custos desenha um mapa e encontra o nó." width="720">
 </p>
 
 <p align="center">

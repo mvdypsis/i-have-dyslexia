@@ -4,6 +4,8 @@ Each rule added from a community report links to that report and credits its aut
 
 ## Unreleased
 
+- A new demo: a working day in three scenes (an engineer, a product manager, a founder), built by `tools/build-demo-svg.py`. In the founder scene, the person names the knot, and Claude only gives the first step.
+- The README examples are now one normal working day per role, in English and Portuguese.
 - Use it at work: playbooks for product, engineering, design, and founders and leaders. Each maps 9 moments of the job to a strategy, in that job's words.
 - The website has a role filter, and the copied prompt says your role.
 - The generator fails if a playbook names a strategy that does not exist.

@@ -18,8 +18,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC, OUT = ROOT / "assets" / "demo.svg", ROOT / "assets" / "demo.gif"
-FPS, DUR, W, H = 10, 12.0, 800, 460
-ANIM = re.compile(r'<animate attributeName="([\w-]+)" dur="12s" repeatCount="indefinite" '
+FPS, W, H = 10, 800, 460
+ANIM = re.compile(r'<animate attributeName="([\w-]+)" dur="[\d.]+s" repeatCount="indefinite" '
                   r'values="([^"]+)" keyTimes="([^"]+)"/>')
 
 
@@ -51,7 +51,8 @@ def frame(svg, f):
 
 def main():
     svg = SRC.read_text(encoding="utf-8")
-    n = int(FPS * DUR)
+    dur = float(re.search(r'<animate [^>]*dur="([\d.]+)s"', svg).group(1))
+    n = int(FPS * dur)
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         for i in range(n):

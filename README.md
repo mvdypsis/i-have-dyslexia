@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/demo.gif" alt="Demo: someone is stuck on a project. Claude says let's try Draw it as a map, draws the map, and finds the knot: the deadline." width="720">
+  <img src="assets/demo.gif" alt="Demo of a working day: an engineer stuck on CI gets one guess and one check, a product manager's 60-message thread becomes one answer, and a founder cutting costs draws a map and finds the knot." width="720">
 </p>
 
 <p align="center">
