@@ -29,9 +29,35 @@ The [Agent Skills docs](https://docs.claude.com/en/docs/agents-and-tools/agent-s
 
 ## Other agents
 
-Any agent that reads `SKILL.md` files can use the `skills/i-have-dyslexia` folder.
-Copy it into that agent's skills folder.
-Native setup for Codex, Cursor and Gemini is planned for v0.2.
+These follow the formats used by [i-have-adhd](https://github.com/ayghri/i-have-adhd).
+**They have not been tested here yet.** If one works, or breaks, please [tell us](https://github.com/mvdypsis/i-have-dyslexia/issues/new/choose).
+
+Setup and always-on are for Claude Code only. In other agents, the skill works when you call it.
+
+### Codex
+
+```
+codex plugin marketplace add mvdypsis/i-have-dyslexia --ref main
+codex plugin add i-have-dyslexia@i-have-dyslexia
+```
+
+Type `$i-have-dyslexia` to use it.
+
+### Gemini CLI
+
+```
+gemini extensions install https://github.com/mvdypsis/i-have-dyslexia
+```
+
+The extension loads `GEMINI.md`, which brings in the whole skill.
+
+### Cursor, and any agent that reads skills
+
+```
+npx skills add mvdypsis/i-have-dyslexia -a cursor -y
+```
+
+Change `cursor` to your agent's name. Without `-a`, it installs for this folder only.
 
 ## Your own version
 

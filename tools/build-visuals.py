@@ -284,8 +284,26 @@ def outputs(items):
     return files
 
 
+VERSIONED = [".claude-plugin/plugin.json", ".claude-plugin/marketplace.json",
+             ".codex-plugin/plugin.json", "gemini-extension.json"]
+
+
+def version_drift():
+    """Every manifest must carry the same version as .claude-plugin/plugin.json."""
+    found = {}
+    for rel in VERSIONED:
+        found[rel] = set(re.findall(r'"version":\s*"([^"]+)"', (ROOT / rel).read_text(encoding="utf-8")))
+    want = found[VERSIONED[0]]
+    return [f"{rel}: version {sorted(v)} differs from {sorted(want)}" for rel, v in found.items() if v != want]
+
+
 def main():
     check = "--check" in sys.argv
+    drift = version_drift()
+    for line in drift:
+        print(line)
+    if drift:
+        return 1
     files = outputs(load())
     stale = [p for p, c in files.items() if not p.exists() or p.read_text(encoding="utf-8") != c]
     orphans = [p for p in (ASSETS / "cards").glob("*.svg") if p not in files] if (ASSETS / "cards").exists() else []

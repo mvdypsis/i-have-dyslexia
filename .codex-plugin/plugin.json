@@ -1,0 +1,31 @@
+{
+  "name": "i-have-dyslexia",
+  "version": "0.3.0",
+  "description": "Thinking strategies from dyslexic thinkers, and answers that work for dyslexic people: the point first, no red pen, ideas as pictures, small steps.",
+  "author": {
+    "name": "Miguel Vicente",
+    "url": "https://github.com/mvdypsis"
+  },
+  "homepage": "https://github.com/mvdypsis/i-have-dyslexia",
+  "repository": "https://github.com/mvdypsis/i-have-dyslexia",
+  "license": "MIT",
+  "keywords": ["dyslexia", "accessibility", "neurodiversity", "thinking", "skills", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "I Have Dyslexia",
+    "shortDescription": "Think like a dyslexic thinker",
+    "longDescription": "A library of thinking strategies shared by dyslexic people, for anyone who is stuck. For dyslexic readers, Codex also puts the answer first, never comments on spelling, draws ideas, and gives one step at a time.",
+    "developerName": "Miguel Vicente",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://mvdypsis.github.io/i-have-dyslexia/",
+    "defaultPrompt": [
+      "Use i-have-dyslexia for this task.",
+      "I'm stuck. Think like a dyslexic thinker.",
+      "Draw this as a map."
+    ],
+    "brandColor": "#7C6CF2",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

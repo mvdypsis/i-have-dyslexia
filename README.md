@@ -37,7 +37,7 @@ Then type **`/i-have-dyslexia setup`**. Claude asks you 5 questions, one at a ti
 
 After that it switches on by itself in every session. Say **"stop dyslexia mode"** to pause it.
 
-Other ways to install, including the Claude app: [INSTALL.md](INSTALL.md).
+Also works in the Claude app, Codex, Gemini CLI and Cursor: see [INSTALL.md](INSTALL.md).
 
 <p align="center">
   <a href="https://mvdypsis.github.io/i-have-dyslexia/"><b>🧭 Not sure where to start? Find your strategy in 10 seconds ➜</b></a>

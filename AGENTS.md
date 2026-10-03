@@ -18,7 +18,7 @@ The skill itself is in `skills/i-have-dyslexia/SKILL.md`.
 | The skill | `skills/i-have-dyslexia/SKILL.md` |
 | The six areas | `skills/i-have-dyslexia/*.md` |
 | The strategies library | `skills/i-have-dyslexia/strategies/` |
-| Plugin manifests | `.claude-plugin/` |
+| Plugin manifests | `.claude-plugin/` (Claude Code), `.codex-plugin/` and `.agents/` (Codex), `gemini-extension.json` and `GEMINI.md` (Gemini) |
 | Always-on hook (fires only with a profile) | `hooks/` |
 | Examples | `examples/` |
 | Eval cases | `evals/` |
