@@ -133,6 +133,31 @@
       "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/draw-it-as-a-map.md"
     },
     {
+      "slug": "explain-it-with-a-movie",
+      "name": "Explain it with a movie",
+      "emoji": "🎞️",
+      "summary": "Explain a situation through a movie scene everyone can picture.",
+      "skills": [
+        "Imagining",
+        "Communicating"
+      ],
+      "moments": [
+        "explain",
+        "people"
+      ],
+      "use_when": "a situation is hard to explain in plain words, or people are not getting it.",
+      "steps": [
+        "Find the heart of the situation in one line: who wants what, and what is in the way.",
+        "Pick a movie scene or a well-known image with the same shape. Ask the person if they know it.",
+        "Explain the situation through the scene: who is who, and what happens next.",
+        "Come back to the real situation, and say what the scene teaches."
+      ],
+      "shared_by": "Miguel Vicente",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/explain-it-with-a-movie.md"
+    },
+    {
       "slug": "find-another-path",
       "name": "Find another path",
       "emoji": "🛤️",
@@ -394,6 +419,30 @@
         }
       ],
       "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/name-what-you-need.md"
+    },
+    {
+      "slug": "picture-what-you-read",
+      "name": "Picture what you read",
+      "emoji": "📸",
+      "summary": "Turn what you read into images, and remember the pictures.",
+      "skills": [
+        "Visualising",
+        "Imagining"
+      ],
+      "moments": [
+        "learn"
+      ],
+      "use_when": "the person must learn from a text, and the words slip away.",
+      "steps": [
+        "Split the text into a few parts. One idea per part.",
+        "For each part, describe one clear image the person can hold: a place, an object, a scene.",
+        "Ask the person to change the image so it feels like theirs.",
+        "To review, ask them to walk through the images in order and say what each one means."
+      ],
+      "shared_by": "Miguel Vicente",
+      "inspired_by": "",
+      "sources": [],
+      "url": "https://github.com/mvdypsis/i-have-dyslexia/blob/main/skills/i-have-dyslexia/strategies/picture-what-you-read.md"
     },
     {
       "slug": "read-with-your-ears",

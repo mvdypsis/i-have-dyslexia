@@ -11,7 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/mvdypsis/i-have-dyslexia?style=flat" alt="MIT licence"></a>
   <img src="https://img.shields.io/badge/version-0.2.0-7C6CF2?style=flat" alt="Version 0.2.0">
-  <img src="https://img.shields.io/badge/strategies-23-16A88E?style=flat" alt="23 strategies">
+  <img src="https://img.shields.io/badge/strategies-25-16A88E?style=flat" alt="25 strategies">
   <a href="https://mvdypsis.github.io/i-have-dyslexia/"><img src="https://img.shields.io/badge/website-find%20your%20strategy-E0922A?style=flat" alt="Find your strategy"></a>
 </p>
 
@@ -59,11 +59,11 @@ Claude uses them when **anyone** is stuck.
 
 ---
 
-## 23 ways dyslexic people think
+## 25 ways dyslexic people think
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/strategy-map-dark.svg">
-  <img src="assets/strategy-map-light.svg" alt="Mind map of 23 thinking strategies, grouped under the six Dyslexic Thinking skills." width="100%">
+  <img src="assets/strategy-map-light.svg" alt="Mind map of 25 thinking strategies, grouped under the six Dyslexic Thinking skills." width="100%">
 </picture>
 
 Claude picks **one** strategy, tells you which, and does it **with** you.
@@ -77,7 +77,9 @@ Claude picks **one** strategy, tells you which, and does it **with** you.
 <a href="skills/i-have-dyslexia/strategies/big-picture-first.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/big-picture-first-dark.svg"><img src="assets/cards/big-picture-first-light.svg" alt="Big picture first: See the whole before the details." width="400"></picture></a>
 <a href="skills/i-have-dyslexia/strategies/build-a-model.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/build-a-model-dark.svg"><img src="assets/cards/build-a-model-light.svg" alt="Build a model: Make the idea with your hands, then move the pieces." width="400"></picture></a>
 <a href="skills/i-have-dyslexia/strategies/draw-it-as-a-map.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/draw-it-as-a-map-dark.svg"><img src="assets/cards/draw-it-as-a-map-light.svg" alt="Draw it as a map: Put the problem in the middle, and find the knot." width="400"></picture></a>
+<a href="skills/i-have-dyslexia/strategies/picture-what-you-read.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/picture-what-you-read-dark.svg"><img src="assets/cards/picture-what-you-read-light.svg" alt="Picture what you read: Turn what you read into images, and remember the pictures." width="400"></picture></a>
 <a href="skills/i-have-dyslexia/strategies/think-in-pictures.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/think-in-pictures-dark.svg"><img src="assets/cards/think-in-pictures-light.svg" alt="Think in pictures: Turn the problem into a drawing." width="400"></picture></a>
+<a href="skills/i-have-dyslexia/strategies/explain-it-with-a-movie.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/explain-it-with-a-movie-dark.svg"><img src="assets/cards/explain-it-with-a-movie-light.svg" alt="Explain it with a movie: Explain a situation through a movie scene everyone can picture." width="400"></picture></a>
 <a href="skills/i-have-dyslexia/strategies/name-it-dont-number-it.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/name-it-dont-number-it-dark.svg"><img src="assets/cards/name-it-dont-number-it-light.svg" alt="Name it, don&#x27;t number it: Give things names you can picture, not codes." width="400"></picture></a>
 <a href="skills/i-have-dyslexia/strategies/run-the-movie-forward.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/run-the-movie-forward-dark.svg"><img src="assets/cards/run-the-movie-forward-light.svg" alt="Run the movie forward: Play the future in your head, and watch where it breaks." width="400"></picture></a>
 <a href="skills/i-have-dyslexia/strategies/keep-the-message-simple.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/keep-the-message-simple-dark.svg"><img src="assets/cards/keep-the-message-simple-light.svg" alt="Keep the message simple: If it takes a page to explain, it isn&#x27;t ready." width="400"></picture></a>

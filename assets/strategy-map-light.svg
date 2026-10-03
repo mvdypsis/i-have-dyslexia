@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 830" width="1400" height="830" role="img" aria-label="Mind map of 23 thinking strategies grouped under the six Dyslexic Thinking skills: Visualising: Big picture first, Build a model, Draw it as a map, Think in pictures; Imagining: Name it, don&#x27;t number it, Run the movie forward; Communicating: Keep the message simple, Name what you need, Talk it out, Tell it as a story; Reasoning: Jump to the answer, then check, Repeat until it sticks, Start from the end, Use the context; Connecting: Build a team around your gaps, Learn by changing roles, Learn from cases, What is this like?; Exploring: Find another path, Go and look, Learn by doing, Read with your ears, Train it another way" font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 830" width="1400" height="830" role="img" aria-label="Mind map of 25 thinking strategies grouped under the six Dyslexic Thinking skills: Visualising: Big picture first, Build a model, Draw it as a map, Picture what you read, Think in pictures; Imagining: Explain it with a movie, Name it, don&#x27;t number it, Run the movie forward; Communicating: Keep the message simple, Name what you need, Talk it out, Tell it as a story; Reasoning: Jump to the answer, then check, Repeat until it sticks, Start from the end, Use the context; Connecting: Build a team around your gaps, Learn by changing roles, Learn from cases, What is this like?; Exploring: Find another path, Go and look, Learn by doing, Read with your ears, Train it another way" font-family="Lexend, Verdana, 'Segoe UI', Arial, sans-serif">
 <rect width="1400" height="830" rx="18" fill="#FFFDF8"/>
 <text x="700.0" y="52.0" font-size="26" font-weight="700" fill="#1F2430" text-anchor="middle">The strategies, by Dyslexic Thinking skill</text>
-<text x="700.0" y="82.0" font-size="15" font-weight="400" fill="#5B6170" text-anchor="middle">23 strategies · 6 skills · each one a way dyslexic people think</text>
+<text x="700.0" y="82.0" font-size="15" font-weight="400" fill="#5B6170" text-anchor="middle">25 strategies · 6 skills · each one a way dyslexic people think</text>
 <path d="M700.0 440.0 C610.0 440.0 600.0 220.0 510.0 220.0" fill="none" stroke="#E2683C" stroke-width="5" stroke-linecap="round"/>
 <path d="M510.0 220.0 C432.5 220.0 432.5 140.0 355.0 140.0" fill="none" stroke="#E2683C" stroke-width="2.5" opacity="0.8"/>
 <circle cx="355.0" cy="140.0" r="7" fill="#E2683C" stroke="#E2683C" stroke-width="2.5"/>
@@ -21,18 +21,21 @@
 <circle cx="510.0" cy="220.0" r="54" fill="#FFFDF8" stroke="#E2683C" stroke-width="4"/>
 <text x="510.0" y="225.0" font-size="13" font-weight="700" fill="#1F2430" text-anchor="middle">Exploring</text>
 <path d="M700.0 440.0 C790.0 440.0 800.0 220.0 890.0 220.0" fill="none" stroke="#7C6CF2" stroke-width="5" stroke-linecap="round"/>
-<path d="M890.0 220.0 C967.5 220.0 967.5 160.0 1045.0 160.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
-<circle cx="1045.0" cy="160.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
-<text x="1059.0" y="166.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🔭 Big picture first</text>
-<path d="M890.0 220.0 C967.5 220.0 967.5 200.0 1045.0 200.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
-<circle cx="1045.0" cy="200.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
-<text x="1059.0" y="206.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🧱 Build a model</text>
-<path d="M890.0 220.0 C967.5 220.0 967.5 240.0 1045.0 240.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
-<circle cx="1045.0" cy="240.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
-<text x="1059.0" y="246.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🗺️ Draw it as a map</text>
-<path d="M890.0 220.0 C967.5 220.0 967.5 280.0 1045.0 280.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
-<circle cx="1045.0" cy="280.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
-<text x="1059.0" y="286.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🖼️ Think in pictures</text>
+<path d="M890.0 220.0 C967.5 220.0 967.5 140.0 1045.0 140.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="140.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
+<text x="1059.0" y="146.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🔭 Big picture first</text>
+<path d="M890.0 220.0 C967.5 220.0 967.5 180.0 1045.0 180.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="180.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
+<text x="1059.0" y="186.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🧱 Build a model</text>
+<path d="M890.0 220.0 C967.5 220.0 967.5 220.0 1045.0 220.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="220.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
+<text x="1059.0" y="226.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🗺️ Draw it as a map</text>
+<path d="M890.0 220.0 C967.5 220.0 967.5 260.0 1045.0 260.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="260.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
+<text x="1059.0" y="266.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">📸 Picture what you read</text>
+<path d="M890.0 220.0 C967.5 220.0 967.5 300.0 1045.0 300.0" fill="none" stroke="#7C6CF2" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="300.0" r="7" fill="#7C6CF2" stroke="#7C6CF2" stroke-width="2.5"/>
+<text x="1059.0" y="306.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🖼️ Think in pictures</text>
 <circle cx="890.0" cy="220.0" r="54" fill="#FFFDF8" stroke="#7C6CF2" stroke-width="4"/>
 <text x="890.0" y="225.0" font-size="13" font-weight="700" fill="#1F2430" text-anchor="middle">Visualising</text>
 <path d="M700.0 440.0 C610.0 440.0 600.0 460.0 510.0 460.0" fill="none" stroke="#16A88E" stroke-width="5" stroke-linecap="round"/>
@@ -51,12 +54,15 @@
 <circle cx="510.0" cy="460.0" r="54" fill="#FFFDF8" stroke="#16A88E" stroke-width="4"/>
 <text x="510.0" y="465.0" font-size="13" font-weight="700" fill="#1F2430" text-anchor="middle">Connecting</text>
 <path d="M700.0 440.0 C790.0 440.0 800.0 460.0 890.0 460.0" fill="none" stroke="#D9579B" stroke-width="5" stroke-linecap="round"/>
-<path d="M890.0 460.0 C967.5 460.0 967.5 440.0 1045.0 440.0" fill="none" stroke="#D9579B" stroke-width="2.5" opacity="0.8"/>
-<circle cx="1045.0" cy="440.0" r="7" fill="#D9579B" stroke="#D9579B" stroke-width="2.5"/>
-<text x="1059.0" y="446.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🏷️ Name it, don&#x27;t number it</text>
-<path d="M890.0 460.0 C967.5 460.0 967.5 480.0 1045.0 480.0" fill="none" stroke="#D9579B" stroke-width="2.5" opacity="0.8"/>
-<circle cx="1045.0" cy="480.0" r="7" fill="#D9579B" stroke="#D9579B" stroke-width="2.5"/>
-<text x="1059.0" y="486.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🎬 Run the movie forward</text>
+<path d="M890.0 460.0 C967.5 460.0 967.5 420.0 1045.0 420.0" fill="none" stroke="#D9579B" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="420.0" r="7" fill="#D9579B" stroke="#D9579B" stroke-width="2.5"/>
+<text x="1059.0" y="426.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🎞️ Explain it with a movie</text>
+<path d="M890.0 460.0 C967.5 460.0 967.5 460.0 1045.0 460.0" fill="none" stroke="#D9579B" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="460.0" r="7" fill="#D9579B" stroke="#D9579B" stroke-width="2.5"/>
+<text x="1059.0" y="466.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🏷️ Name it, don&#x27;t number it</text>
+<path d="M890.0 460.0 C967.5 460.0 967.5 500.0 1045.0 500.0" fill="none" stroke="#D9579B" stroke-width="2.5" opacity="0.8"/>
+<circle cx="1045.0" cy="500.0" r="7" fill="#D9579B" stroke="#D9579B" stroke-width="2.5"/>
+<text x="1059.0" y="506.0" font-size="16" font-weight="600" fill="#1F2430" text-anchor="start">🎬 Run the movie forward</text>
 <circle cx="890.0" cy="460.0" r="54" fill="#FFFDF8" stroke="#D9579B" stroke-width="4"/>
 <text x="890.0" y="465.0" font-size="13" font-weight="700" fill="#1F2430" text-anchor="middle">Imagining</text>
 <path d="M700.0 440.0 C610.0 440.0 600.0 680.0 510.0 680.0" fill="none" stroke="#2F8FE0" stroke-width="5" stroke-linecap="round"/>

@@ -36,7 +36,9 @@ Each strategy below uses one or more of them.
 | Big picture first | Visualising | details are drowning the person, or they cannot see why the parts matter. | `strategies/big-picture-first.md` |
 | Build a model | Visualising | an idea has parts that fit together, and words keep them flat. | `strategies/build-a-model.md` |
 | Draw it as a map | Visualising | the person is stuck and the problem is going round in their head. | `strategies/draw-it-as-a-map.md` |
+| Picture what you read | Visualising | the person must learn from a text, and the words slip away. | `strategies/picture-what-you-read.md` |
 | Think in pictures | Visualising | an idea is abstract, or words are going round in circles. | `strategies/think-in-pictures.md` |
+| Explain it with a movie | Imagining | a situation is hard to explain in plain words, or people are not getting it. | `strategies/explain-it-with-a-movie.md` |
 | Name it, don't number it | Imagining | people must remember many items, versions, projects or options. | `strategies/name-it-dont-number-it.md` |
 | Run the movie forward | Imagining | a decision depends on how things will change over time. | `strategies/run-the-movie-forward.md` |
 | Keep the message simple | Communicating | an idea, a product or a pitch needs to land with real people. | `strategies/keep-the-message-simple.md` |
