@@ -241,15 +241,17 @@ These are the real results for v0.2.0, failures included.
 
 | Test | With | Without |
 |---|---|---|
-| Stuck: "see it from a different angle" | **1.00** | 0.00 to 0.50 |
-| Learning: "a different way to approach this" | **0.50** | 0.00 |
+| Stuck: "see it from a different angle" | **1.00** | 0.00 |
+| Learning: "a different way to approach this" | **1.00** | 0.00 |
 | Fix a message, no spelling comments | **1.00** | 0.50 |
+| Plan my week, with one clear first step | **0.50 to 1.00** | 0.00 |
 | Show a comparison as a picture | **0.75** | 0.50 |
 | Summarise a long email | 1.00 | 1.00 |
 | Write in European Portuguese | 1.00 | 1.00 |
-| Plan my week, with one clear first step | 0.00 | 0.00 |
+| Answer short when there is "too much text" | 1.00 | 1.00 |
 
-The skill switched on every time it should. **Planning is the open problem.** Help is welcome.
+The skill switched on every time it should.
+Planning moves between runs, and the comparison picture is not always small enough. Help is welcome.
 
 The test cases are in [`evals/`](evals/). The skill's own text is checked by [`tools/check-readability.py`](tools/check-readability.py), because a skill about clear writing must follow its own rules.
 

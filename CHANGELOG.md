@@ -2,6 +2,11 @@
 
 Each rule added from a community report links to that report and credits its author.
 
+## Unreleased
+
+- Planning: a plan now ends with one "▶ Start here" step. The rule moved into `SKILL.md`, where Claude always reads it. Plan my week went from 0.00 to between 0.50 and 1.00.
+- Learning: a learning problem gets one named strategy and only its first step. 0.50 to 1.00.
+
 ## 0.2.0 (2026-10-03)
 
 Learn from the best, and see it.

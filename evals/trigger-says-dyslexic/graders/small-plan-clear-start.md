@@ -1,6 +1,6 @@
 ---
 type: llm
-criteria: "Is the plan small and easy to scan (a short overview with at most one or two items per day, not a long detailed list), and does it end with or clearly mark ONE concrete first step the person can do now? A plan without a single clear starting step fails. A plan with many items per day fails."
+criteria: "Is the plan an overview the eye can scan: one row or line per day, where each entry is a short phrase of a few words, not sentences or paragraphs? Answer from the overview only. A plan where most entries are full sentences, or where days have three or more separate tasks listed, fails."
 focus: last_message
 ---
-planning.md: a week overview is fine when asked for, but it must stay small and point to one first step.
+planning.md: a week overview is fine when asked for, but it must stay small.
