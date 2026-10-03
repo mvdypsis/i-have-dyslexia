@@ -16,6 +16,10 @@
 </p>
 
 <p align="center">
+  <b>English</b> · <a href="README.pt-PT.md">Português</a>
+</p>
+
+<p align="center">
   <img src="assets/demo.gif" alt="Demo: someone is stuck on a project. Claude says let's try Draw it as a map, draws the map, and finds the knot: the deadline." width="720">
 </p>
 
