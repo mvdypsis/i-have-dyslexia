@@ -65,6 +65,98 @@ Claude uses them when **anyone** is stuck.
 
 ---
 
+## A normal day at work
+
+<table>
+<tr>
+<th width="50%">Without the skill</th>
+<th width="50%">With the skill</th>
+</tr>
+<tr><td colspan="2"><b>🧭 Product manager, 9:50, standup in 10 minutes</b></td></tr>
+<tr>
+<td>
+
+> **"Summarise this 60-message Slack thread about the checkout bug"**
+>
+> The thread begins with a report from support on Monday regarding intermittent failures in the checkout flow, after which several engineers discussed possible causes, including a recent change to the payment provider integration, while the design team raised a separate concern about the error message copy...
+
+</td>
+<td>
+
+> **Checkout fails for about 2% of card payments since Monday. A fix ships Thursday.**
+>
+> - Cause: the new payment provider times out after 10 seconds.
+> - Ana owns the fix. Rui is changing the error message.
+>
+> **For you:** tell support to offer PayPal until Thursday.
+
+</td>
+</tr>
+<tr><td colspan="2"><b>🛠️ Engineer, 16:00, two hours on the same bug</b></td></tr>
+<tr>
+<td>
+
+> **"Tests pass locally but fail in CI and I don't know why"**
+>
+> Here are 10 common causes: 1. Environment variables. 2. Different Node versions. 3. Timezones. 4. Test order. 5. Caching. 6. Network calls. 7. File paths...
+
+</td>
+<td>
+
+> Let's try **Jump to the answer, then check**.
+>
+> What's your gut guess: the environment, the timing, or the order the tests run in?
+>
+> Pick one, and I'll give you the one command that proves it.
+
+</td>
+</tr>
+<tr><td colspan="2"><b>🎨 Designer, 11:00, a 30-page research report to read</b></td></tr>
+<tr>
+<td>
+
+> **"What does this research say about onboarding?"**
+>
+> The report presents findings from 14 interviews conducted over three weeks. Participants reported a range of experiences, and several themes emerged across the sessions, including uncertainty, time pressure and trust...
+
+</td>
+<td>
+
+> Let's **Picture what you read**. Three images hold the report:
+>
+> 1. 🧭 **A person lost in a mall:** users don't know which step they're on.
+> 2. ⏰ **A phone at a bus stop:** most sign up in under 2 minutes, on the go.
+> 3. 🔒 **A locked door:** asking for the card at step 2 makes 6 of 14 leave.
+>
+> Which one do you want to design for first?
+
+</td>
+</tr>
+<tr><td colspan="2"><b>🚀 Founder, 22:00, the monthly investor update</b></td></tr>
+<tr>
+<td>
+
+> **"fix this: we closed 3 new clents this month and revenu grew 12%, burn is down, we are hirring a cto"**
+>
+> Here's the corrected version. Note: "clents" should be "clients", "revenu" should be "revenue", and "hirring" should be "hiring"...
+
+</td>
+<td>
+
+> **Update: September**
+>
+> We closed 3 new clients, and revenue grew 12%. Burn is down. We're hiring a CTO.
+>
+> Want me to add the numbers in a small table?
+
+</td>
+</tr>
+</table>
+
+More examples for each role in the [playbooks](skills/i-have-dyslexia/roles/), and the basics in [`examples/`](examples/).
+
+---
+
 ## 25 ways dyslexic people think
 
 <picture>
@@ -157,72 +249,6 @@ More in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## See the difference
-
-<table>
-<tr>
-<th width="50%">Without the skill</th>
-<th width="50%">With the skill</th>
-</tr>
-<tr>
-<td>
-
-> **"Help me get more people into my bakery. Flyers and Instagram didn't work."**
->
-> Here are 12 ideas to grow foot traffic: 1. Run a loyalty program. 2. Partner with local businesses. 3. Host events. 4. Improve your Google listing. 5. Try TikTok. 6. Offer discounts...
-
-</td>
-<td>
-
-> Let's try **Find another path**.
->
-> Flyers and Instagram both try to reach strangers. The other path: start from the people who already come.
->
-> Ask 5 regulars this week: "How did you first find us?"
->
-> What do you think they'll say?
-
-</td>
-</tr>
-<tr>
-<td>
-
-> **"why is my build failing"**
->
-> The reason the build is failing is because the configuration file that the deployment pipeline relies on, which was updated in the most recent commit, contains a reference to an environment variable that has not yet been defined in the staging environment, so you'll need to add it there before re-running.
-
-</td>
-<td>
-
-> **The build fails because a setting is missing in staging.**
->
-> 1. The last change added a new setting: `API_KEY`.
-> 2. Staging does not have `API_KEY` yet.
-> 3. Add `API_KEY` to staging, then run the build again.
-
-</td>
-</tr>
-<tr>
-<td>
-
-> **"fix this for my landlord: the boiler is brokan agian since wenesday"**
->
-> Here's the corrected version. Note: "brokan" should be "broken", "agian" should be "again", and "wenesday" should be "Wednesday".
-
-</td>
-<td>
-
-> Here's the message:
->
-> Hi Mr Santos, the boiler has been broken again since Wednesday, and there's no hot water. Could you send someone this week?
-
-</td>
-</tr>
-</table>
-
-More pairs in [`examples/`](examples/).
-
----
 
 ## Try these
 
