@@ -2,6 +2,10 @@
 
 Each rule added from a community report links to that report and credits its author.
 
+## Unreleased
+
+- Helping the library grow: when a way of thinking clearly worked, Claude offers once to draft it as a strategy. It never posts anything itself. Test: 0.50 with the skill, 0.00 without.
+
 ## 0.3.0 (2026-10-04)
 
 - `/i-have-dyslexia setup`: 5 questions, one at a time, and a short profile in your own words. Setup test: 1.00 with the skill, 0.00 without.

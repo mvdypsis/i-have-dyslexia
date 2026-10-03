@@ -254,6 +254,7 @@ These are the real results for v0.3.0, failures included.
 | Write in European Portuguese | 1.00 | 1.00 |
 | Answer short when there is "too much text" | 1.00 | 1.00 |
 | Setup asks one question at a time | **1.00** | 0.00 |
+| Offers to draft a strategy that worked | **0.50** | 0.00 |
 
 The skill switched on every time it should.
 Planning moves between runs, and the comparison picture is not always small enough. Help is welcome.

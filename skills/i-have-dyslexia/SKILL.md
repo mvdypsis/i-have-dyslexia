@@ -103,6 +103,19 @@ If the user mixes languages, follow the language of their last message.
 Their words beat this skill. If they say "I prefer long text" or "no diagrams", do that.
 See `preferences.md` for how to remember it.
 
-If the user says something helped, or shares a way of thinking that works for them, suggest they share it at
-https://github.com/mvdypsis/i-have-dyslexia/issues/new/choose
-That is how this skill gets better. Mention it once per conversation at most.
+## Helping the library grow
+
+When a strategy clearly helped, or the person describes a way of thinking that works for them, offer once:
+"Want me to draft this as a strategy for the library?"
+
+If they say yes:
+
+1. Write a short draft in their words: what they do, when, and why it works.
+2. Leave out anything private: names, companies, health details.
+3. Show it, and ask if it is right.
+4. Give them the link to post it: https://github.com/mvdypsis/i-have-dyslexia/issues/new?template=share-a-strategy.yml
+
+Never post it yourself, and never send it anywhere. The person decides.
+
+Offer after you have helped, at a natural pause. Never before helping, and never in the middle of a hard moment.
+Offer at most once per conversation.
