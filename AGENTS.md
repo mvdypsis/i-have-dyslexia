@@ -22,6 +22,7 @@ The skill itself is in `skills/i-have-dyslexia/SKILL.md`.
 | Eval cases | `evals/` |
 | Readability check | `tools/check-readability.py` |
 | Pictures, website data, generated tables | `tools/build-visuals.py` |
+| Demo GIF, from `assets/demo.svg` | `tools/build-demo-gif.py` (macOS) |
 | Website | `site/` (GitHub Pages) |
 | Sources | `READING-LIST.md` |
 

@@ -19,7 +19,7 @@ Learn from the best, and see it.
 - Sources added to three starters: Start from the end (John Irving), Think in pictures (Charles Schwab), Big picture first (Fortune).
 - `READING-LIST.md`: the books and people behind the strategies, and the myths we leave out.
 - Pictures: a strategy map and a card per strategy, light and dark, generated from the files by `tools/build-visuals.py`.
-- An animated demo of Draw it as a map.
+- An animated demo of Draw it as a map, as a GIF. Browsers do not play animations inside an SVG shown as an image, which is how GitHub shows README pictures.
 - A website, Find your strategy, on GitHub Pages.
 - CI checks that the pictures and tables match the strategy files.
 - Dropped during fact-checking: "Understand it, don't memorise it". Carol Greider says she memorised, so the strategy became Use the context.
